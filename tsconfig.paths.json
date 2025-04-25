@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@@/*": [
+        ".dumi/tmp/*"
+      ],
+      "@marshal/plugin-storage-minio/client": [
+        "packages/plugins/@marshal/plugin-storage-minio/src/client"
+      ],
+      "@marshal/plugin-storage-minio/package.json": [
+        "packages/plugins/@marshal/plugin-storage-minio/package.json"
+      ],
+      "@marshal/plugin-storage-minio": [
+        "packages/plugins/@marshal/plugin-storage-minio/src"
+      ]
+    }
+  }
+}

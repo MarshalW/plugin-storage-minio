@@ -3,6 +3,8 @@
   "private": true,
   "workspaces": [
     "packages/*/*",
+    "packages/*/*/*",
+    "packages/*/*",
     "packages/*/*/*"
   ],
   "engines": {
@@ -39,9 +41,9 @@
     "mariadb": "^3.4.1",
     "pg": "^8.14.1",
     "pg-hstore": "^2.3.4",
-    "@nocobase/cli": "1.6.24"
+    "@nocobase/cli": "1.9.35"
   },
   "devDependencies": {
-    "@nocobase/devtools": "1.6.24"
+    "@nocobase/devtools": "1.9.35"
   }
 }

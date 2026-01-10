@@ -14662,9 +14662,9 @@ ipaddr.js@1.9.1:
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
 ipaddr.js@^2.0.1:
-  version "2.2.0"
-  resolved "http://verdaccio/ipaddr.js/-/ipaddr.js-2.2.0.tgz#d33fa7bac284f4de7af949638c9d68157c6b92e8"
-  integrity sha512-Ag3wB2o37wslZS19hZqorUnrnzSkpOVy+IiiDEiTqNubEYpYuHWIf6K4psgN2ZWKExS4xhVCrRVfb/wfW8fWJA==
+  version "2.3.0"
+  resolved "http://verdaccio/ipaddr.js/-/ipaddr.js-2.3.0.tgz#71dce70e1398122208996d1c22f2ba46a24b1abc"
+  integrity sha512-Zv/pA+ciVFbCSBBjGfaKUya/CcGmUHzTydLMaTwrUUEM2DIEO3iZvueGxmacvmN50fGpGVKeTXpb2LcYQxeVdg==
 
 is-absolute@^1.0.0:
   version "1.0.0"
@@ -17004,9 +17004,9 @@ minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6, minimist@~1.2.8:
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 minio@^8.0.5:
-  version "8.0.5"
-  resolved "http://verdaccio/minio/-/minio-8.0.5.tgz#bfc4d07734ba956efe90bdbcf53b97f56a2c10f2"
-  integrity sha512-/vAze1uyrK2R/DSkVutE4cjVoAowvIQ18RAwn7HrqnLecLlMazFnY0oNBqfuoAWvu7mZIGX75AzpuV05TJeoHg==
+  version "8.0.6"
+  resolved "http://verdaccio/minio/-/minio-8.0.6.tgz#ec736e3e3ead1f450af5b9b28256c28e52a83dd0"
+  integrity sha512-sOeh2/b/XprRmEtYsnNRFtOqNRTPDvYtMWh+spWlfsuCV/+IdxNeKVUMKLqI7b5Dr07ZqCPuaRGU/rB9pZYVdQ==
   dependencies:
     async "^3.2.4"
     block-stream2 "^2.1.0"
@@ -21361,7 +21361,12 @@ sass-loader@^16.0.5:
   dependencies:
     neo-async "^2.6.2"
 
-sax@>=0.6.0, sax@^1.2.4:
+sax@>=0.6.0:
+  version "1.4.4"
+  resolved "http://verdaccio/sax/-/sax-1.4.4.tgz#f29c2bba80ce5b86f4343b4c2be9f2b96627cf8b"
+  integrity sha512-1n3r/tGXO6b6VXMdFT54SHzT9ytu9yr7TaELowdYpMqY/Ao7EnlQGmAQ1+RatX7Tkkdm6hONI2owqNx2aZj5Sw==
+
+sax@^1.2.4:
   version "1.4.1"
   resolved "http://verdaccio/sax/-/sax-1.4.1.tgz#44cc8988377f126304d3b3fc1010c733b929ef0f"
   integrity sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==

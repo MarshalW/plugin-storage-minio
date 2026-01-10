@@ -1,6 +1,6 @@
 {
   "name": "@marshal/plugin-storage-minio",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/server/index.js",
   "dependencies": {
     "minio": "^8.0.5"

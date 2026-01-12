@@ -4024,50 +4024,50 @@
   resolved "http://verdaccio/@noble/hashes/-/hashes-1.8.0.tgz#cee43d801fcef9644b11b8194857695acd5f815a"
   integrity sha512-jCs9ldd7NwzpgXDIf6P3+NrHh9/sD6CQdxHyjQI+h/6rDNo88ypBxxz45UDuZHz9r3tNz7N/VInSVoVdtXEI4A==
 
-"@nocobase/acl@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/acl/-/acl-1.9.35.tgz#0ed47e51d4c94d488b1fe955039c720e06bec1fd"
-  integrity sha512-36P7DUa+w3sa19luka4qWlSDOEjop+VcHnVZNSkR58xKnD3b8K1ECsZrpvthtodSLYkdyNiNEZXJXhzAbjEuSw==
+"@nocobase/acl@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/acl/-/acl-1.9.29.tgz#49b00e1f716e15347532c1a4833eef911b1f5b85"
+  integrity sha512-uulTLows6/2uy00REkABq84HbL0sJhQNooAedGBgP/WKMcHZ17FVOLE8ispE5MATNTXKkV/Jcm3I/twTdgvpWA==
   dependencies:
-    "@nocobase/resourcer" "1.9.35"
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/resourcer" "1.9.29"
+    "@nocobase/utils" "1.9.29"
     minimatch "^5.1.1"
 
-"@nocobase/actions@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/actions/-/actions-1.9.35.tgz#fe1722cc6775f4d6c669e9f7d5a003e2ebf17bf3"
-  integrity sha512-1+yOijW2bd/jWJaJgcwQ3T5E9Mix3tqsHt9KXmtZtvBhHBJBd9FxZp/VIjVQwuOeijmIJkJxyIRSAootpdT9Aw==
+"@nocobase/actions@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/actions/-/actions-1.9.29.tgz#bfc8cd163d048ecf35d1e75b15d37ff4911b9216"
+  integrity sha512-qfSfrJdBnctS+GIOdVQjMUf2NI4kxbfgu1HSHtl24XbuNNZXpbMvSd2edtgLQJaeNtIVsWDMZskgE8NtZqIlNA==
   dependencies:
-    "@nocobase/cache" "1.9.35"
-    "@nocobase/database" "1.9.35"
-    "@nocobase/resourcer" "1.9.35"
+    "@nocobase/cache" "1.9.29"
+    "@nocobase/database" "1.9.29"
+    "@nocobase/resourcer" "1.9.29"
 
-"@nocobase/app@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/app/-/app-1.9.35.tgz#1cb06e9d13e9d891f1be7f62b15ce6f62cdf7d25"
-  integrity sha512-spQPqTGPJbzdq1d01Xpm63K/voEwRNsrtzW0VgvYdBVaofZ+GK+4ETuDPqV1dCqsK36EsvsIo7nIhT3rJyW2SQ==
+"@nocobase/app@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/app/-/app-1.9.29.tgz#36125b73bcab3cfbba17715e8dc0c3981da683b8"
+  integrity sha512-ApFVXN6cabjUXUMON497BLdnhqVqfcLD9nyYmRzLsez2zCHGkOo+/9rei54ruOYLZ2jRu0MAAZcSH3+Fkc3kzw==
   dependencies:
-    "@nocobase/database" "1.9.35"
-    "@nocobase/preset-nocobase" "1.9.35"
-    "@nocobase/server" "1.9.35"
+    "@nocobase/database" "1.9.29"
+    "@nocobase/preset-nocobase" "1.9.29"
+    "@nocobase/server" "1.9.29"
 
-"@nocobase/auth@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/auth/-/auth-1.9.35.tgz#75cabe0e1637ea400c770eec9f1f87fc26784a7d"
-  integrity sha512-cs6KuMnsnpU26TvQDGbK5VDei78FGYJfsbSGbtkMg0oyQX6j/D76cPp5RG2zAS4dkuWx5N1xH62SzR7NBoXjug==
+"@nocobase/auth@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/auth/-/auth-1.9.29.tgz#0c9c45d76125b4e48ccbc6f9e35d44a09a4cdf0e"
+  integrity sha512-QnC+V/WzZVBocmDFbHxgth3x0HwYwpFngSx732fs5ptHxGL1D6ajsJM2RI09pESVoKogbhVUZHJlsq56aTM5Nw==
   dependencies:
-    "@nocobase/actions" "1.9.35"
-    "@nocobase/cache" "1.9.35"
-    "@nocobase/database" "1.9.35"
-    "@nocobase/resourcer" "1.9.35"
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/actions" "1.9.29"
+    "@nocobase/cache" "1.9.29"
+    "@nocobase/database" "1.9.29"
+    "@nocobase/resourcer" "1.9.29"
+    "@nocobase/utils" "1.9.29"
     "@types/jsonwebtoken" "^9.0.9"
     jsonwebtoken "^9.0.2"
 
-"@nocobase/build@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/build/-/build-1.9.35.tgz#ea8c40ef5b4ec493e743e162c72e96b6bc17abb3"
-  integrity sha512-er8KDB/2lKCHdss0Xy1Z+YTBgS5LRYBPb0R0/7fv6rwSogf9lCQ4oLcLXp3k2surSbiZGBvvh3nlPtTSy74KjQ==
+"@nocobase/build@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/build/-/build-1.9.29.tgz#82c9c1e4e2383170211fd6922bf80e688ce0f9a9"
+  integrity sha512-i2H3tyaCn+j4rOVokSfS/nUJ4XGx3OR7eYOqB9nSdnCgQMCuBUKdQb1xQniESzV7Xml0JwKXIEts3NyZdtLkkA==
   dependencies:
     "@babel/core" "^7.26.0"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
@@ -4109,23 +4109,23 @@
     vite-plugin-lib-inject-css "1.2.0"
     yargs-parser "13.1.2"
 
-"@nocobase/cache@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/cache/-/cache-1.9.35.tgz#9a3eed806c3b1c8e58a70ecf29e25947c5801725"
-  integrity sha512-DMrAZNKsUvEZj9xOxeUdBObFj8/hDslCgVcmqyMIB5K/wT4oxkhM04G2+iF2norxq7XEKlTwcdeWA5KmpPggug==
+"@nocobase/cache@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/cache/-/cache-1.9.29.tgz#25dba3689d071622e3ecd28c3910e87b69e774d1"
+  integrity sha512-GOGry/2bLmMUXnqbFaM6yyDXWEai/d4wbSI9bgZLVV8sjsl5fkR1OGin8iXcEjYA6ias1fx7q/WdU8cfX1gL5w==
   dependencies:
-    "@nocobase/lock-manager" "1.9.35"
+    "@nocobase/lock-manager" "1.9.29"
     bloom-filters "^3.0.1"
     cache-manager "^5.2.4"
     cache-manager-redis-yet "^4.1.2"
 
-"@nocobase/cli@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/cli/-/cli-1.9.35.tgz#cbf0966fa92b0bbafc224f9f8dbc89c3961a4c2d"
-  integrity sha512-t94hM+L3kKB2HdPMF6udLzBhzBpDwfst56VRSpX21eAwfA9qy+zjeJxvPOhkFvicD7IKtzA54QyOzjYXlCQCAA==
+"@nocobase/cli@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/cli/-/cli-1.9.29.tgz#9d7fefbf19c074677246220bc8ea55eb02d0c78b"
+  integrity sha512-kwBmcwLn9AuAydcEDsSL+RNCk0QZ5NRJnsSt6R0bDWbF6oRCAYBh6kDfjchooLYAtCLJ0+lQx1Siz587G3rgxA==
   dependencies:
-    "@nocobase/app" "1.9.35"
-    "@nocobase/license-kit" "^0.3.5"
+    "@nocobase/app" "1.9.29"
+    "@nocobase/license-kit" "^0.3.4"
     "@types/fs-extra" "^11.0.1"
     "@umijs/utils" "3.5.20"
     chalk "^4.1.1"
@@ -4142,10 +4142,10 @@
     tree-kill "^1.2.2"
     tsx "^4.19.0"
 
-"@nocobase/client@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/client/-/client-1.9.35.tgz#6770d271136c00bcdb90a372a409ee093ad36809"
-  integrity sha512-9/ThBNP9ahGbFlWKHaXupdrH0H/oAcMKx/F9CtPns4dtiy38m4oo68URXlrHYWwTY5Y0sPYCywtiLk+n9RYWig==
+"@nocobase/client@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/client/-/client-1.9.29.tgz#ccaeeba892eab0c23dee32fb603cf888d79aae1e"
+  integrity sha512-htDbFe1yJ/zaremd7P5KwIIaFiR6rKBT0Fj55nzNW92jzwfVd1R97Yo98uPovALMAbTQu14/vBEffPofG8sRPA==
   dependencies:
     "@ahooksjs/use-url-state" "3.5.1"
     "@ant-design/cssinjs" "^1.11.1"
@@ -4167,9 +4167,9 @@
     "@formily/reactive-react" "^2.2.27"
     "@formily/shared" "^2.2.27"
     "@formily/validator" "^2.2.27"
-    "@nocobase/evaluators" "1.9.35"
-    "@nocobase/sdk" "1.9.35"
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/evaluators" "1.9.29"
+    "@nocobase/sdk" "1.9.29"
+    "@nocobase/utils" "1.9.29"
     ahooks "^3.7.2"
     antd "5.24.2"
     antd-mobile "^5.41.1"
@@ -4212,26 +4212,26 @@
     sanitize-html "2.13.0"
     use-deep-compare-effect "^1.8.1"
 
-"@nocobase/data-source-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/data-source-manager/-/data-source-manager-1.9.35.tgz#f3262f87a69a9faba08e41379fe49021be4562ff"
-  integrity sha512-EFT5M92C6GJGOhpP2eSqi9QaUwR/LuCN3jHNc3uIz1nvjbJnms85hRKCLGd9TJiwSNkBGKmYbogWfvIyxrpjgA==
+"@nocobase/data-source-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/data-source-manager/-/data-source-manager-1.9.29.tgz#c23df70dabf932eb7b3102cb6f717caa796dd093"
+  integrity sha512-y5ZyLHgiwt9tTas/qkJApDzOL6ZFiGfiTnJ0JBFOhuZiGNIESvE7WPf/SImB1hd1E4ZaHryl98sZbpgNH/UkSg==
   dependencies:
-    "@nocobase/actions" "1.9.35"
-    "@nocobase/cache" "1.9.35"
-    "@nocobase/database" "1.9.35"
-    "@nocobase/resourcer" "1.9.35"
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/actions" "1.9.29"
+    "@nocobase/cache" "1.9.29"
+    "@nocobase/database" "1.9.29"
+    "@nocobase/resourcer" "1.9.29"
+    "@nocobase/utils" "1.9.29"
     "@types/jsonwebtoken" "^8.5.8"
     jsonwebtoken "^9.0.2"
 
-"@nocobase/database@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/database/-/database-1.9.35.tgz#cb9e2ff9ed4d1d70c2e953d2e6bbf122eb098ced"
-  integrity sha512-3/l3Mi73aFkHJvZjqj0Gden+OLpbuAYbHLSXbzJ9O0zcXAoKWYXECIavAUnqgcMhfPVX79MgZNrOwtJsgBrmUQ==
+"@nocobase/database@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/database/-/database-1.9.29.tgz#c7f4296280b0e99627c628cb51199e1f9b1f1ff4"
+  integrity sha512-XiXARK7iaiijSWVm6ieIn/ZFKt3sfZWCEwZoTrosmkU9TE+OHEphu8LudIQ4nK+9Jv8CggbvZWBYxmS9YWIACg==
   dependencies:
-    "@nocobase/logger" "1.9.35"
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/logger" "1.9.29"
+    "@nocobase/utils" "1.9.29"
     async-mutex "^0.3.2"
     chalk "^4.1.1"
     cron-parser "4.4.0"
@@ -4255,14 +4255,14 @@
     umzug "^3.1.1"
     uuid "^9.0.1"
 
-"@nocobase/devtools@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/devtools/-/devtools-1.9.35.tgz#2bd6ac641d2f6bba242440570ca2ba97284e7e90"
-  integrity sha512-9eBUohSe/0dbIu7BCqHP1Ra8UHctXWMwuhL7sPnterzKt4wIHf74txr/cVYtzEGSpfd4uitdwGG/PJWD/J2P1w==
+"@nocobase/devtools@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/devtools/-/devtools-1.9.29.tgz#22223292d31790145e575c8c0b1af265c4b05f7d"
+  integrity sha512-Pj99PLqsfB68HC3M3aXRj7w/o047XNXUqNkGIGot/qDQvTOFOUSz8i8b2xago8/jjDMwKiw/8xYvh08h23IfVQ==
   dependencies:
-    "@nocobase/build" "1.9.35"
-    "@nocobase/client" "1.9.35"
-    "@nocobase/test" "1.9.35"
+    "@nocobase/build" "1.9.29"
+    "@nocobase/client" "1.9.29"
+    "@nocobase/test" "1.9.29"
     "@types/koa" "^2.15.0"
     "@types/koa-bodyparser" "^4.3.4"
     "@types/lodash" "^4.14.177"
@@ -4300,13 +4300,13 @@
     typescript "5.1.3"
     umi "^4.0.69"
 
-"@nocobase/evaluators@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/evaluators/-/evaluators-1.9.35.tgz#950ead5c53228a1912f6b8298087443470b4a5f6"
-  integrity sha512-4LtgQpnqQTnkE7hP+hs2cfZbm76uJQ1hkeoWHIiuvUKPt8Zru8sshIPpQcoVYA0mfyHoYUzhZMZx9iEsmlKdAw==
+"@nocobase/evaluators@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/evaluators/-/evaluators-1.9.29.tgz#03e97ab365f4b0e0fa790717308fcfa4f9547c98"
+  integrity sha512-J43zipP2+I6ScIFMiEugSIZ1MK7cjDgon8IdzFa7pVq37K0poUdZf8Visbkpu26bdoKDtrQPE/su0nw8oPCBpQ==
   dependencies:
     "@formulajs/formulajs" "4.4.9"
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/utils" "1.9.29"
     mathjs "^10.6.0"
 
 "@nocobase/license-kit-android-arm-eabi@0.3.5":
@@ -4389,9 +4389,9 @@
   resolved "https://registry.npmmirror.com/@nocobase/license-kit-win32-x64-msvc/-/license-kit-win32-x64-msvc-0.3.5.tgz#bf4635d9b1c28a48c74f61c1cc528d233f2a4d2b"
   integrity sha512-n2AoNdg4wjHhEv28Q+q4Xm/fgRStB3CsyAfImlCW5tHht7pqXZMuG+FsAT7JSjTbg5OuH5YB95Ev2i6GmBeQjA==
 
-"@nocobase/license-kit@^0.3.5":
+"@nocobase/license-kit@^0.3.4":
   version "0.3.5"
-  resolved "https://registry.npmmirror.com/@nocobase/license-kit/-/license-kit-0.3.5.tgz#ca02014a5540a649a39b0bc189ddf38155e7c88c"
+  resolved "http://verdaccio/@nocobase/license-kit/-/license-kit-0.3.5.tgz#ca02014a5540a649a39b0bc189ddf38155e7c88c"
   integrity sha512-HdYwlHmdUM7F+QJ5xJHFRVEumHrlCFRaNdR1ulfJT3DM6kEBL4Yu2C9AC72bou+7ylQsGMEQ8C+z6IXrBSYokA==
   optionalDependencies:
     "@nocobase/license-kit-android-arm-eabi" "0.3.5"
@@ -4411,15 +4411,15 @@
     "@nocobase/license-kit-win32-ia32-msvc" "0.3.5"
     "@nocobase/license-kit-win32-x64-msvc" "0.3.5"
 
-"@nocobase/lock-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/lock-manager/-/lock-manager-1.9.35.tgz#48b35d80bc26bc168bb28f53aa989b6865f8a61d"
-  integrity sha512-XlaDLv7TChWkt3zTFzgMdXu+PUFtrUgEtk5wLWaMqcbTEV/2AyvM2Epw4T/ZvciBAO6hdzxpXbtgRKfS+zJbrg==
+"@nocobase/lock-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/lock-manager/-/lock-manager-1.9.29.tgz#8090ba6e650539791ed9df948c83047d57ec8da6"
+  integrity sha512-6AlOV5UGeC+ZfNUqXNsUxGcS5vOznaYr05ZBWhJ10nJbqwPiEfvtqbEcbkboUzfPmqUujodWRaXut2LgqdY01w==
 
-"@nocobase/logger@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/logger/-/logger-1.9.35.tgz#ac7e79fa6ac7b161ebee819161632694465badd8"
-  integrity sha512-8SdgiKGsmjymYgdxOmjmmGL6clyOCAtD3EL0BHhWsM32dlTA/Xl7U9ieJxyrehCsuXaj8jql6ukwUcRtUKxcAA==
+"@nocobase/logger@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/logger/-/logger-1.9.29.tgz#42a5f00855cedfe75411b21c2f226f0c07795424"
+  integrity sha512-wTru/bOIoiqZnSIRnpMuLRaULv9BKh9HunnBZO39MNANFaav3cu4FAaRfxLYB+k17GFxIFPFdVpkSBvjynN9kw==
   dependencies:
     chalk "^4"
     lodash "^4.17.21"
@@ -4428,546 +4428,546 @@
     winston-daily-rotate-file "^5.0.0"
     winston-transport "^4.7.0"
 
-"@nocobase/plugin-acl@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-acl/-/plugin-acl-1.9.35.tgz#47bc0c79477cb46ee23d95a05ea6d22863a029f8"
-  integrity sha512-6cPOYoDiYxzF5gZhMPBSen5oTCkXXE5SKCVd4KjVtHJxaDi650bLlApSzFEgw6au/7lrYE5tki7bUMUg8ZmEOA==
+"@nocobase/plugin-acl@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-acl/-/plugin-acl-1.9.29.tgz#5d232933abcef4c950ccabc6f3d296401062bbce"
+  integrity sha512-krAxC9OppXGHrIy98LtVJxrearXU1kBC88HEe0XRGkmM6NNxXCchJ0L/AWx9hGYECfEeKd12qZcjdpKzgs18CQ==
 
-"@nocobase/plugin-action-bulk-edit@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-action-bulk-edit/-/plugin-action-bulk-edit-1.9.35.tgz#3069267c69b688a01529fcf5b567422e98107906"
-  integrity sha512-wS68yLgbV3UUYyIIGMqptjOH/3h+cHEhy9lkciqFWntp72eBafIG7uwHugupOn45ePRZxK9vy0ftCv/t6irGvA==
+"@nocobase/plugin-action-bulk-edit@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-action-bulk-edit/-/plugin-action-bulk-edit-1.9.29.tgz#f619c6e30ea4340789c3e61c83679b846717836e"
+  integrity sha512-nH/2jiYIsUYvFMmhkSa17WQYz07Odtb/Ynpg/NOTQeURQYKcXeVQMmypI0vQBKIP4CnLVKAFfSHDiaKM6k4YHA==
 
-"@nocobase/plugin-action-bulk-update@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-action-bulk-update/-/plugin-action-bulk-update-1.9.35.tgz#d206eadb1935f3315b9631bc0a840c019a464a1c"
-  integrity sha512-vHD/SCgWcpMA67CAr2eIsZA8UufrCptYAIz/2fE/kqVFShFNNeIcjajrnqq4CywJuhqXhrfmLOzilbf7A8xpWg==
+"@nocobase/plugin-action-bulk-update@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-action-bulk-update/-/plugin-action-bulk-update-1.9.29.tgz#ee91a97f7e4194042abe164659636992ac9e83a4"
+  integrity sha512-lw2y0Y3BUnqfkOcG7n4U1Yz9EIRxi8DloakqCS4ZatDpWcrd0Xzx/bym15gS4/+HBCK/AyfNbu1ZB0pd2frLtA==
 
-"@nocobase/plugin-action-custom-request@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-action-custom-request/-/plugin-action-custom-request-1.9.35.tgz#fcc9176c06e426dc14a12d986c3b6adbb6f90cd9"
-  integrity sha512-YI2gpCiDpJXsViGLw/zvXrt/HPbJPQvlXj0tsBn7gWTNHmOV3zZwlGoDjn6nouWJRaqEyOpcer7rEZwy0NCItg==
+"@nocobase/plugin-action-custom-request@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-action-custom-request/-/plugin-action-custom-request-1.9.29.tgz#1f01e7e426e72c74d9e614d99da0af259d196db1"
+  integrity sha512-ZfAaMA3ePINO+FA8H1zyCqhqKHqL1DVrHjqXjwELgHtBteI5Jo1a6hnspaUyk6UezaGR11/9IcidF/y2BG5cZQ==
 
-"@nocobase/plugin-action-duplicate@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-action-duplicate/-/plugin-action-duplicate-1.9.35.tgz#e78415510329b04fb88b626ce9ad6c0b238e1cfc"
-  integrity sha512-D7QtSeRH9umCxF/PVAVqRunvLwXnz/RKVUStsmxBF2eLymXDpIYjtlzE3Y4W70Yl2mJFYesTdAr9GmrPw3+Tlw==
+"@nocobase/plugin-action-duplicate@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-action-duplicate/-/plugin-action-duplicate-1.9.29.tgz#07636c34666a86a3446f949cf24b2b2e44e1777f"
+  integrity sha512-XSw8VUQhw6pBG3B+SGkoeSiXzWbkTusqa8M5A1LdlMrDGXxK80rAHpOCiB7w4VHU4muhLUrOWKCVSyUw1JchxQ==
 
-"@nocobase/plugin-action-export@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-action-export/-/plugin-action-export-1.9.35.tgz#0f3ea3d02a452ca31121feff7c748e908a1fad80"
-  integrity sha512-fdmUnFHoOpV8uHUsVTNgVJgqMQ79WVcm2Q9LRIGNPR2nhGTBDHfm7Z7axwpdprRSAhV9QvKR02NAFOCpLc480g==
+"@nocobase/plugin-action-export@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-action-export/-/plugin-action-export-1.9.29.tgz#97a38f829c25ceec3e6391a2311e1a07ab12a7dc"
+  integrity sha512-as1D7iMfvNoNXl9sglCFCPYiqQcg1HED0ippnQIT7ndEjod2/cnVg7zKBNSPREWNZ2fAvoF5HKjDz+ghlVnZcw==
 
-"@nocobase/plugin-action-import@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-action-import/-/plugin-action-import-1.9.35.tgz#ec0be16aad8f2883147bd21af0ea173eac18607e"
-  integrity sha512-+MIQfegbO1JXXkaxW8TKzRg9aAzvIDfNbSGEhXyFJJNPUKDTcyC2fxMkqUKGqg9QGhn3RwGe5kDmoAHl3tYS9A==
+"@nocobase/plugin-action-import@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-action-import/-/plugin-action-import-1.9.29.tgz#8970d96a5d6f2ed49c5e5a67bebf08df2b6c9f65"
+  integrity sha512-NhXxl7Az9k4xWXFoKLPfI0z5ulX6vqCjK27vhGxTayB3gyfubVHc+HXT8m5l1066PNEQqvg02gVBlAE0B5W7+Q==
 
-"@nocobase/plugin-action-print@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-action-print/-/plugin-action-print-1.9.35.tgz#422fbaf10b903dfc1dc730a7bd18efde8618e02e"
-  integrity sha512-QkoPgDGHxkV8e6CUyUFqBnJZGRKtW/NYiPlCFdgN/Rsood2x1MKxm+Yo3LKxoX/m+DrAOsjSmykWaTbe2BZ9dQ==
+"@nocobase/plugin-action-print@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-action-print/-/plugin-action-print-1.9.29.tgz#6ce6ad0435f37e455808cc43a4b483b85918ddc5"
+  integrity sha512-6aFZ3vtqGUBiz3wBMqgt30Q1a3ywHdftwv0xP4kosVWXaYRAA4vnd8J194HYCVWSiz/4pi63Stb3tyv6sKHwPg==
 
-"@nocobase/plugin-ai@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-ai/-/plugin-ai-1.9.35.tgz#11063e30f4be918cb6eff2a517fa7fd805b04a32"
-  integrity sha512-exNkd9wSsjDY/RlyyHwAWUNFflsat4OB1GkhK1wECGJc2RkqYaSXxqo22DuuHcUWwqh8diGotTxIXn/uxtLMhQ==
+"@nocobase/plugin-ai@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-ai/-/plugin-ai-1.9.29.tgz#d4697f7c1958e227f89a502ef5d007f7085c7562"
+  integrity sha512-HCDPOdE9fra2nEuGjiqpEEltomrQpdL1T4q44dtTe1qwdQh9kGit0BZJg3hqmnQPqnsnYyW4c2KrXSD0/9OrCQ==
 
-"@nocobase/plugin-api-doc@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-api-doc/-/plugin-api-doc-1.9.35.tgz#588c06571c3083c88e7d91734ddaa2f4c0dbb9dc"
-  integrity sha512-ESwQ/FDKZ2JaP1mFtRbaCl9Y7Y6+9AkfjB2z9bhJ0pxOirntTj+rpqxcVWfwgXbIoOeXJy4sOblQRBlOc5z+5g==
+"@nocobase/plugin-api-doc@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-api-doc/-/plugin-api-doc-1.9.29.tgz#f31d4d29a451b54bc7a172fef55f0ab8e9d4088d"
+  integrity sha512-Tjlq0u3z8WkDKDdUXRubTTX+cKKTbMEq8HUaUb0tQ0c2ud8tlk6yvdcMkQzHtBC2jzsf3AOW6KHvt+hVoYwuKw==
 
-"@nocobase/plugin-api-keys@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-api-keys/-/plugin-api-keys-1.9.35.tgz#9109ed51e034579c4413b4e5f3110d642fc5399e"
-  integrity sha512-ROX53piTTHCjlb4CSWoQ/c9+p7l+3OQ0trOzUUOy+1MCVboKulODF9zp1NArWMBYoIB0385yKB38HKS1Hk8H5A==
+"@nocobase/plugin-api-keys@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-api-keys/-/plugin-api-keys-1.9.29.tgz#61eddbdbc72fb15c5611128690509d536fcbea26"
+  integrity sha512-GgpEw1xBb/W+rH3mQl4eFDbTa7pLNxanvJmAWZf5HH+iKxIaFVdbkSyG/Fh/+F+t0QPsTfgboy63QP3X3xPkhw==
 
-"@nocobase/plugin-async-task-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-async-task-manager/-/plugin-async-task-manager-1.9.35.tgz#a83409d9307cf53432fda2b5e71249922c18510e"
-  integrity sha512-7LF4Z7brugs4TSZ3/vVAgwrbwnU+j7tbsPamupgQKqLjBrx+uNx//zRq8C2YgMyotU3A6BBifSxQ7FaT8z4gSQ==
+"@nocobase/plugin-async-task-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-async-task-manager/-/plugin-async-task-manager-1.9.29.tgz#318dcac8cc47967e1df428222cb1cf4f67cb55f1"
+  integrity sha512-DoqVEIwJy8i1RayHaU+Ka6EoC00DCFZV7d4tSej5zgdvsE9FWXuX8kSdZfLkNYIgA82AE6pyS+334SUBVhL5Rw==
   dependencies:
     p-queue "^6.6.2"
 
-"@nocobase/plugin-audit-logs@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-audit-logs/-/plugin-audit-logs-1.9.35.tgz#7d3049213a37442a43f3388f0b8ef050ac2187a4"
-  integrity sha512-LidUocxHA0pcZfrZbrdr6XrYuLv9vUZkaro4jd955blf4kRUsj3SFRc3zlRuI3xU52RSUnkEXlOq6dz0MJx2wQ==
+"@nocobase/plugin-audit-logs@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-audit-logs/-/plugin-audit-logs-1.9.29.tgz#5c2fe36efb9caa09fc7048b572458a4a5684db3a"
+  integrity sha512-SX5ajbF0uswL2ft8J4zjj/VJvronabonglCQfaGCd+HYmjgO1lvhIP2B7aiuEKHhTMIGOkEJkfzpnyLyVgJvvQ==
 
-"@nocobase/plugin-auth-sms@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-auth-sms/-/plugin-auth-sms-1.9.35.tgz#363d0c2772f9d7314783a8ca0e6775580b77440f"
-  integrity sha512-Dd7RALNjGQhUCx5oPg9n4aRR424Nhn1wQ6MMIAriqnozQsXU6yqbhd3XPZReB+gEpzJggx9RwtGtUG7ksWo7RQ==
+"@nocobase/plugin-auth-sms@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-auth-sms/-/plugin-auth-sms-1.9.29.tgz#aeefcc2db2d10d493c4e499c0f228455799d06bb"
+  integrity sha512-YXgd6P5gjkZIvC6SxWjx6euxq3SFiaC53zw41WHIIMdbnjiYomMycDVr1kv7Frlk3x6YB3mf2F+YGwjhSI9Riw==
 
-"@nocobase/plugin-auth@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-auth/-/plugin-auth-1.9.35.tgz#7cb789df106aa0a24d5b6d2ba3cb59c19f6c4ddc"
-  integrity sha512-B1la1NlXwtRTgt9O4o5SMdATlMTWzZC1HotF5Gl0Sqfx4HObQkIi2ZNKT9wplvJ2YG9DLfRd3wN0KXnXL7P7JQ==
+"@nocobase/plugin-auth@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-auth/-/plugin-auth-1.9.29.tgz#d846bbd16ca7b2c5b3e212a9d669bd1107799253"
+  integrity sha512-/R4poHH9+V3/fcsgrf7hZk/gFq5x10vben+SpI7W25v/C+GbvK5MMRpG3Mx0v6V4U2HZ1SW5029b1gKenoYn9w==
 
-"@nocobase/plugin-backup-restore@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-backup-restore/-/plugin-backup-restore-1.9.35.tgz#04702dd1dc33e64debe89a4cfb33e88506f3cdcf"
-  integrity sha512-F3mY1RswOYoRlMevyGDqr5gXN28AI+q7pDwTRD1FYsXmJTgHlIxgc+q2aEdfEEMhdvdT/h7RSGQvRYo8hutkNQ==
+"@nocobase/plugin-backup-restore@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-backup-restore/-/plugin-backup-restore-1.9.29.tgz#fbc39161ac9a743b3a492accc74e04efa0f4faa3"
+  integrity sha512-EnRRUe93pTbYUdZ93slw2NxE/GiGYAfMlQHQplQWAL28zmJlkbHRAQmmuF+pWxg3fS3z8txdGssNMAHzHGZ02A==
 
-"@nocobase/plugin-block-iframe@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-block-iframe/-/plugin-block-iframe-1.9.35.tgz#b25b89e8052f1616901507d6e1d1fd3c32444998"
-  integrity sha512-t7aciq+05Gh/GOKbply3szpyWShF3YkZV5/oQrUoRTI3IPoOo/lpokrhm5GLVl7Bwyfnlm6tayWPPqfXn6WNyQ==
+"@nocobase/plugin-block-iframe@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-block-iframe/-/plugin-block-iframe-1.9.29.tgz#e9f0494adc8028e7824c2547fd2d1544b97a8540"
+  integrity sha512-6m2nkLEYRy5SMJR0C7RnogCIUvLgprddBVOFuAVHyAaaaiIqDNNaXz/j9DBoETcdSYRkWr78+VTU+58EvAsF5w==
 
-"@nocobase/plugin-block-template@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-block-template/-/plugin-block-template-1.9.35.tgz#e169fd53493404ff0faf8d7a6452c507b8a31cb3"
-  integrity sha512-dx/eXLHn6ov5pS3DGSbPv0gFYJmZbloImBq5LD0zbOhienEz9d1BUBvbGN7HmUEK2NHEVdYxJjAeUpuR/M9CoQ==
+"@nocobase/plugin-block-template@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-block-template/-/plugin-block-template-1.9.29.tgz#7960d3313fbaf3dac9399f24caa3c1567d98e461"
+  integrity sha512-lq4LxNed/5IIO/b4wjUugNCIASr+tghVtxkZxGQsSEVHOHXTq1A7p+sDX2AhXbIhotGvPvGwnnAWhxUq9fb0dw==
 
-"@nocobase/plugin-block-workbench@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-block-workbench/-/plugin-block-workbench-1.9.35.tgz#1a4eca4ff353d7bfaa0bffbbfe5a3e9f9ec2d09a"
-  integrity sha512-N/ZhZ72MEb6yBPnIPF3WhNqR7KrRtMks0HKL13VWcHKo2bktKa2A3Ceobz4pcaNF/7xJ505Wsj8EaymNmuiLCw==
+"@nocobase/plugin-block-workbench@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-block-workbench/-/plugin-block-workbench-1.9.29.tgz#ff3f35b85e30a0850b6bb097cf5df140ce9e0125"
+  integrity sha512-12YzkeeBkmZNpq11AV37IlnbBZcDrqM1ThuyfRAFKELanB8i5mNyAo3NpOWT3iq74pXawr3bcn0nwkhnsipCOA==
 
-"@nocobase/plugin-calendar@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-calendar/-/plugin-calendar-1.9.35.tgz#a93cfdf3cb8c56bf7ca69c8ff8a95477bb784632"
-  integrity sha512-mErR0gLk1gFU11O3fpE4QPzXGjL/XLPdq4/ojDywfga4NVwk7ZZeWm+OhruFna08MAS/s3SiT0X9vrc0oGFaow==
+"@nocobase/plugin-calendar@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-calendar/-/plugin-calendar-1.9.29.tgz#bee72d6a293219fc98a420c2c26a473b5ef9a88f"
+  integrity sha512-Lx/uDtOeQMUcrBCNmb6HJunVfLo4hdeCAVdAH7+mDfjb02M73Qz9cGFUYSeyfstCwk3ZcTYdzrD/Cl0YdpZTMQ==
 
-"@nocobase/plugin-charts@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-charts/-/plugin-charts-1.9.35.tgz#4221610a97402de5246b19d69827f6a27147f323"
-  integrity sha512-hBDOr3JHYXxtYdgHWBlqWvH738Py6P/u2rh0f/oIdZErofgdwevwuInZrtlGkiHl77blTLCjmVRN1c51Nhwh1Q==
+"@nocobase/plugin-charts@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-charts/-/plugin-charts-1.9.29.tgz#4814209ed06ea1b4bd14d82d28e936de2b5d674e"
+  integrity sha512-z3j3vZz4TsTcr753m7J1wLkngOA9mkDZT4lS94rpbBLOUFXg+jYSie+tg9cF9zx6i82toKs8pX/mY4Tlp49Nzw==
 
-"@nocobase/plugin-client@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-client/-/plugin-client-1.9.35.tgz#6129e6825d8b18e5a0d2b891a3d0af5683e5755c"
-  integrity sha512-MJ1Y2MNkzCWgWGzCd0V1VGLdP4HDHLN51VlQ0bULf9ofju++RJV87F63QJzjvX/KCP51qvlRoKM0gPkShBpDbw==
+"@nocobase/plugin-client@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-client/-/plugin-client-1.9.29.tgz#ee773f06642eba7687b4f3a6764b5a22c6aac6e6"
+  integrity sha512-meBAzaBzaWoSrc1sgq7wPxb3aWqJvGGfgLZ9BT755SLK1W79dTctEgMAIKW5bfTAwUw/wJ2hMWuViij3EG8U1Q==
 
-"@nocobase/plugin-collection-sql@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-collection-sql/-/plugin-collection-sql-1.9.35.tgz#59f3f6e4452bbdcebaaa078540f32d15728935cc"
-  integrity sha512-lQcC9ZU6bU+A8yt6yKtDQxQpoW84F0IMtcBKWTtk4aLj2EKnN21kLQfGTFZ0eLp+Aw4xbViEUQIdPyoTOzOQwg==
+"@nocobase/plugin-collection-sql@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-collection-sql/-/plugin-collection-sql-1.9.29.tgz#b7d3ae1257d4a98de878d9172754954dcaefb77d"
+  integrity sha512-wXa1Ua39jlIvVn3IDQ+vlVaxSSklXUMKXOd8kFlE5j+czt6SPUpRMcxeGrXSVWtN8gy8pVF9fbz2ixqXbPN1HA==
 
-"@nocobase/plugin-collection-tree@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-collection-tree/-/plugin-collection-tree-1.9.35.tgz#e2579ad626c08afb0777556119274785991743ac"
-  integrity sha512-cH/h7t93GSGhh1PBzZGLT1jXaVQf8S6WJNpOoMVa20L9luSUSneo+DoOzvN43FcBtcCKXMyVZvthnAIqkAACfg==
+"@nocobase/plugin-collection-tree@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-collection-tree/-/plugin-collection-tree-1.9.29.tgz#0b36853c5f8172589f7ac0fdf9157b5694033288"
+  integrity sha512-P4zOoEvLSgfJx9H4GHeh7VPE/rAALiJDicCDU4jQIYxGGS6xl1EIPXOq02k8k8OcWjvQ47rGUY0oWw/nsDVCHA==
 
-"@nocobase/plugin-data-source-main@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-data-source-main/-/plugin-data-source-main-1.9.35.tgz#afd31ea7f381b72ecece6f1e308817897a020d7c"
-  integrity sha512-oAhg+JRX0G6JkRl+3brZvHQp3SWAVTU08ZfucDUACBFigxJf9IMwb9se8ll7WUpagRfDF8IWdPMwfrEwnOlNcA==
+"@nocobase/plugin-data-source-main@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-data-source-main/-/plugin-data-source-main-1.9.29.tgz#21aa0b8a9a280df3bbad0a010b941b47ecaf94c0"
+  integrity sha512-aWPZYR3Q/lZd74Xf6AaB6rg0AYLwDROUMWxzZw5x3g9AWq0qJee9bA5QqCpEmEvo44VJ4vLISG5pO5qKnLFCxQ==
 
-"@nocobase/plugin-data-source-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-data-source-manager/-/plugin-data-source-manager-1.9.35.tgz#a42829f67dcbdddc6ba0c13dda66802101758b91"
-  integrity sha512-2qkghLECQjvGUwGMTnXVPuJSprQPKZWmkstUrIxGDhsGpeuWZYrZuG0fPVStVtohWMyGkn3fERYwTy67+4R5Cw==
+"@nocobase/plugin-data-source-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-data-source-manager/-/plugin-data-source-manager-1.9.29.tgz#51fac7ee3c66ea82e4f6b503af1741ec0297c534"
+  integrity sha512-8qjsooinsccEj9dhwZgHgDZu5EstvjiKEwzAs+Rc/XXKJyMI3JW6W9nSNXD4+K9ZPBBKCszu7pc25yA/of1DXg==
 
-"@nocobase/plugin-data-visualization@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-data-visualization/-/plugin-data-visualization-1.9.35.tgz#164094c7ff9cea5838e118b6e824d08028745ec7"
-  integrity sha512-1pmD3ZSXuPWIV1eOE5DyRgTX4OGR9wwY56ablmOcLDMxYZmTXEShtDzYuhyRRtiCBoY8+wvWJYQo/Z1DUSdcXQ==
+"@nocobase/plugin-data-visualization@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-data-visualization/-/plugin-data-visualization-1.9.29.tgz#c80ffeac5f10a279104db8afcf95d1f6f410a911"
+  integrity sha512-VyC0R26gc8obvWwcC6p+p9RNjJSUJXgeUsS6d0No6JkmB2CyMsY+PUC90thWYZX3LZWjJALb2WN1egxUeKt+EA==
 
-"@nocobase/plugin-departments@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-departments/-/plugin-departments-1.9.35.tgz#97739d3f4fb633ef4af700dca7b007767e346bfe"
-  integrity sha512-WuYhV6HODHuqgo/7RemuQnFtYTlDuMy5uf9bg0p482qTkMn7w9Plpcy9Xe8O0qbWkEbC9e4DAkjp38KruoCuDg==
+"@nocobase/plugin-departments@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-departments/-/plugin-departments-1.9.29.tgz#058203448641e127324a0e7052f460923748dff5"
+  integrity sha512-nQ19g8zbxIiJgiyETjMwbXGbOaJKFNwOnEvo6H0ID1uTcA017uxjZrOVvyp1rui21AcTXtFyoV6nHN7QmTaxSA==
 
-"@nocobase/plugin-environment-variables@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-environment-variables/-/plugin-environment-variables-1.9.35.tgz#e7b6fdfb86046ac6443c74f8def63d93f445cceb"
-  integrity sha512-1sA6T6XVN290DE/SU0fJe9MYWa1kl7zLBDRtJjjjPvSah9lt4PyVLKe1ErehGPiYlaN/a8z1WcXvxMgCJ2CbMg==
+"@nocobase/plugin-environment-variables@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-environment-variables/-/plugin-environment-variables-1.9.29.tgz#46a6dcbe8e55051e7475fb153a73f2907aa810c7"
+  integrity sha512-JfsZ8Bk24VtJt/g/0dSHhJJB7pgSChcexNPCp4KiMO59xkRVsbfzcwWldyq5XTnlw60Ib5GbkypbX1gGnjd0Vw==
 
-"@nocobase/plugin-error-handler@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-error-handler/-/plugin-error-handler-1.9.35.tgz#575dc9077464abbc42113663d4fbc398bff021fc"
-  integrity sha512-CTgiaQGz50/AvqNVD7lrgwrF4fHK5W68Z/zcQGSEVTymTFpwSPDOXvdiEH0dcaGXEP5bI7adERHnpElKoJlc3g==
+"@nocobase/plugin-error-handler@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-error-handler/-/plugin-error-handler-1.9.29.tgz#9e3a942c459741785ae93934a41e07f9d9f20d00"
+  integrity sha512-NJRIu9Ey2EZ1wzSMTt1LJwYMcEvzc1OTe+Z4x0PqZv6SLekrbf/RN/4/SoheevnzmVfRNN73Z5xx68f+PBaNrA==
 
-"@nocobase/plugin-field-attachment-url@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-field-attachment-url/-/plugin-field-attachment-url-1.9.35.tgz#a20b2e42ee72f0ee8e0564ee30392acc8994eb58"
-  integrity sha512-panqQm7KFNliMwvTgRh72hmGMYQF8CNg2Usfad5ssBn6AwyKitgLsMtJqdFEZT9ic4QPJYZKImMEpz1snL9EbQ==
+"@nocobase/plugin-field-attachment-url@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-field-attachment-url/-/plugin-field-attachment-url-1.9.29.tgz#777d1e319838ed010c9057d9271fd4cca7317a42"
+  integrity sha512-8ut6H6254IuhKeb21fSKnjXMOWKUx+xNewBCAp5ciiKcxrPi0GsE9EjmYO9Homj/r//pjE8mQDovFqK4TeP81w==
 
-"@nocobase/plugin-field-china-region@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-field-china-region/-/plugin-field-china-region-1.9.35.tgz#0415c9683b0a0f23eb1b726a054912de41a13121"
-  integrity sha512-3HfEzkt5xtfDjQ3qgo0uBN1JtQbH3Ew835hEWPsPHfLdXvRXYEZy67y8YvxL5exG/fMmPKhtJiJxPeTOm7kOMQ==
+"@nocobase/plugin-field-china-region@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-field-china-region/-/plugin-field-china-region-1.9.29.tgz#fa1daf090c7f66865aa3797671e8b5ced1973931"
+  integrity sha512-WbX07qsPH82W7nScRJpAHEsW75hjS4Q8YMZhZy8fNBM7zKQbZnYjSPkP5v0lOoqXWGK7rV6bXeiMW0W4S6HEHQ==
 
-"@nocobase/plugin-field-formula@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-field-formula/-/plugin-field-formula-1.9.35.tgz#8f6ceff48909c07f71ff5ee2d8b2f428d79d6c7b"
-  integrity sha512-L10gi9pnTwUeUo/5SVhn3oEF1Jbu0jA1s/S74h9IFLTewasrOBTmWC4JQbdD02ugfw7IhD93hW11kRyXP/fhKg==
+"@nocobase/plugin-field-formula@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-field-formula/-/plugin-field-formula-1.9.29.tgz#199280df0b7f8c9fc5641881a51adbf1d96d725f"
+  integrity sha512-J/HgtPWXkYmxYtlovTmE+c4ddDyVqogQk4yAkAA1gusncsB4FVpDNJ9wzJPfCrH/zSrlB6JqPR7TURgpbuznaA==
 
-"@nocobase/plugin-field-m2m-array@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-field-m2m-array/-/plugin-field-m2m-array-1.9.35.tgz#d820c91d45c67ac500480fb4a88c921a8c75508a"
-  integrity sha512-+ueFW4Er+A3WAoB0tT+ytomAZk71aHNsoFI6I8uiLBWuUalFglKii8BtHR8WCtL+g4WESZo8AS/PoAxS2WwfRA==
+"@nocobase/plugin-field-m2m-array@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-field-m2m-array/-/plugin-field-m2m-array-1.9.29.tgz#bed0061f4e7bc5f83739397c427e6ac865f3c506"
+  integrity sha512-buaniUFB1jOH2FgvGflev/S5qE3Pw20aBaLccf8u6sYiWrIes20jeHa9IBfbZGA468vLWXo3xAIPprj6sOmauQ==
 
-"@nocobase/plugin-field-markdown-vditor@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-field-markdown-vditor/-/plugin-field-markdown-vditor-1.9.35.tgz#5c669d32f53083a4680067049a126a6a74de0423"
-  integrity sha512-yrOWQFNh8PKQ809Rz09rb3QVP9dJpaSXwpjiSYyfMrTekuuufKMTDrm6HHM4YgB9PPJ/CtGMJ0iKC1WxViBhAQ==
+"@nocobase/plugin-field-markdown-vditor@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-field-markdown-vditor/-/plugin-field-markdown-vditor-1.9.29.tgz#3fee0a1a16fc7e5fa4445293ae20ce1006ebf874"
+  integrity sha512-VRFvR7q/YAhqJnY5mQUrtyZsjSLogmYYFlvN1nBWtlq7FIUQf7Pd1HTSDpUatV1ZENjTBySwtD/SeSGIb++CiA==
 
-"@nocobase/plugin-field-sequence@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-field-sequence/-/plugin-field-sequence-1.9.35.tgz#447c8c8eca82fd3484dc31618844248e82db011d"
-  integrity sha512-CFJsvSTi+dbI1g1uvFLBxFj5vDH9QXOmqmkOkV/gZHLMIDXuYJUltWkgDBFEsa5SnPyw2ENij5Z05Pg0as0i+Q==
+"@nocobase/plugin-field-sequence@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-field-sequence/-/plugin-field-sequence-1.9.29.tgz#89a5902f7132a36f2039ba9feb76b20d9a0a5f09"
+  integrity sha512-7OmkKuXIKtrfIkUurbZpX6YkHtuOVDqlP50lK2N9mIqvF8vS3svjMqQrIIJ6aOM8VDfcTagle0I4sqB5RdOhGQ==
 
-"@nocobase/plugin-field-sort@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-field-sort/-/plugin-field-sort-1.9.35.tgz#a11e91c6e01277afdee1065b35baece3c7dfe51d"
-  integrity sha512-G5zLekWQCCSXxp7dsDbJoq0IrZxL486R7XZ0CUQ2yT2+rcIWtXi+vxcf7bv03KJxQIrTi9W9G36HeS4xjIa4TA==
+"@nocobase/plugin-field-sort@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-field-sort/-/plugin-field-sort-1.9.29.tgz#1be9e3ab16cdb79623c5c6378a1329a8a6041c98"
+  integrity sha512-NGvzxobelEi0QyROSL4wdlT1IH+V2M/zHPlh6VfkWAwtK2fqSOqYHQ3YWm5fw8ezReqhHAqS65NmXKWxLBCgRw==
 
-"@nocobase/plugin-file-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-file-manager/-/plugin-file-manager-1.9.35.tgz#4a73fa129cbcea5bd99f13a4b7817507edaa7a08"
-  integrity sha512-oRLcUEUxBQmVtNI0ia/njl7x44OL5sUSCb5V79ggNzt/XPdoblOKcXZEMPE9GrZP80Tt0wl1mxMVrZHQ0I0Z6A==
+"@nocobase/plugin-file-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-file-manager/-/plugin-file-manager-1.9.29.tgz#fd02da6d243b4085eaee9c532e0eaf48a8c06fb3"
+  integrity sha512-KJ2UN7pzRhk2tkOWD+6JaEEjFBjEK5WZuwFHbH7FGUvBPsrYfTW7qE9bToIWCBSRWWMHqpTmQeVoMIN5MUO1Ug==
   dependencies:
     file-type "^21.0.0"
 
-"@nocobase/plugin-file-previewer-office@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-file-previewer-office/-/plugin-file-previewer-office-1.9.35.tgz#94e16b5a0463852b884ee74de633682e0d07c0be"
-  integrity sha512-AcngAYIJXS5Bhp+OfyQBQW6TquzpweosiTaBLlMUU3apTBfovrZlP2WZ4F7g/Bu+ALHs+5NGPnPTGlhJq50FuQ==
+"@nocobase/plugin-file-previewer-office@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-file-previewer-office/-/plugin-file-previewer-office-1.9.29.tgz#f7fd7d518563f79d1324d0229e78bfd6d2cc3a62"
+  integrity sha512-yL6q7meI6Yx1qkCUtDT017RL+zQ139jxNk/0HjNhvP6uY+72VdlnA1pVxN9GD5hJ+KNRUIaXotb3zd2ewABxEg==
 
-"@nocobase/plugin-gantt@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-gantt/-/plugin-gantt-1.9.35.tgz#6364de65117ab60b658d7cbd4f11eb5c48275288"
-  integrity sha512-PKkiys0iMcWtImio9aGtIT3HaQmUXMeHvOQJ6+IYB2bUP1YzEfAHhIcSPU5O+wy94iuI+XZ7817wUGqnXkVlxw==
+"@nocobase/plugin-gantt@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-gantt/-/plugin-gantt-1.9.29.tgz#7b084426a1594584cdc142ed99ddea4222ba76f2"
+  integrity sha512-9tJ0c8Ygx54xXWGQcdAK+qFrE1ma05KSAY7XZOXaxkLHKzRAP0XM5Z7f9ixkGr67d9f212aN7epCKmpO3B/aCA==
 
-"@nocobase/plugin-graph-collection-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-graph-collection-manager/-/plugin-graph-collection-manager-1.9.35.tgz#89bfc90d367a84a6d315531cf4a78a5511bfc5ef"
-  integrity sha512-jl84BtUjtTUGOfnU5Czlg8gy1QxmZTzK5KgtIkDT95NzjbZPZoibe2L+K/xIMNklfjX5Lff+wJLs0L3SrRoWyA==
+"@nocobase/plugin-graph-collection-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-graph-collection-manager/-/plugin-graph-collection-manager-1.9.29.tgz#1a76a90c577ad642a11d6e88ab57f0f189ed2d27"
+  integrity sha512-U1TPczvooKp50v9PV0V2B/TrnfZP72G/XKiY8XljTf23d8vCPYtfgx0pGY7qnFtLQMBjBPl3/ZImEC7qSC8NgA==
 
-"@nocobase/plugin-kanban@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-kanban/-/plugin-kanban-1.9.35.tgz#00cfc65df5bc112827e4c98e30802366e58bdcb9"
-  integrity sha512-2smFfkvFeoBadaDpp0o8tCiErzG8uHsi9Ibe1FOqb+bfpkkHEa8EXVdet58422/BscNMKfdyQW/0a4RB4LQnRQ==
+"@nocobase/plugin-kanban@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-kanban/-/plugin-kanban-1.9.29.tgz#4c6d8e0dcf61d339e658a3e113c88e4b910c924b"
+  integrity sha512-OG1//3KaDLCmQyYCUfDWqueDH+h+v4HXplRyaWXuX2YqFDLyxmYVJ1PBrhw2K8DBqMDsZuuUVs0OJB5MyFPtHQ==
 
-"@nocobase/plugin-license@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-license/-/plugin-license-1.9.35.tgz#ef0f7a8f985d2ab5d4b1f87db0bc57b1f7ceb130"
-  integrity sha512-HgvqOtkFvPDK0TkgmzQwoebubRL4U+WxK3lQ6pNJqBBoTxZBuZ/V672F9maGwAuJtcl0ZUHhgh0aLKOK1YsydA==
+"@nocobase/plugin-license@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-license/-/plugin-license-1.9.29.tgz#10f0592a502cb7b59df7d45ddffaf948318c847f"
+  integrity sha512-KWoFTWuiZtCC5wKyVANX/fCHwVKCqDqfghgrvwgP+xAoVAXtxZM9sC+tYC7TpLzHNl4dc/H521bDnkEfeT0xUQ==
 
-"@nocobase/plugin-locale-tester@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-locale-tester/-/plugin-locale-tester-1.9.35.tgz#f697296265081b2e5c0161e9f81252b9d1ef87e7"
-  integrity sha512-FwBBsIuN2xmVQI2Av1qD3bRo6BrN0zt9jCM1p+6D1PwNUpcXPSu9czDFIculK6BMQWO9vCrIp/dKzjWskyKm3Q==
+"@nocobase/plugin-locale-tester@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-locale-tester/-/plugin-locale-tester-1.9.29.tgz#5caa4e7b9d6a6be63fb876dfc696da8b5c61f574"
+  integrity sha512-8RvqGlVrkerb/OaFmXsuonvZCazlQYNAzReVVvjGWkf33Pcp5zWrrl9DEHPEx44SZc4Yh6ruZ6Qg98FIy98dyQ==
 
-"@nocobase/plugin-localization@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-localization/-/plugin-localization-1.9.35.tgz#9e9114e1bc800695874028ccec0831d635b3205d"
-  integrity sha512-w4zv+ajaf8uZOi3uKUyq/++JP2uMFOrNymv/RlboCMf0xw7tYEOOn8WPVZNLYT7kUlp2oEpuLPF6TkPUD0cT/A==
+"@nocobase/plugin-localization@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-localization/-/plugin-localization-1.9.29.tgz#d8ff675b13798e946bf3ec7f05e19e5f869eed98"
+  integrity sha512-XN9lI9KP2epEou2WPmr23SDa7GnfAy8eWmyQM0VDrlX4d51Frs9HOEg0s8LRTiZkwbJyiE95moiyfKapT6pVqQ==
 
-"@nocobase/plugin-logger@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-logger/-/plugin-logger-1.9.35.tgz#200187179e2f0213595e70d8b63bf7ab17fc48aa"
-  integrity sha512-w6eUw9jAn/+ZrKX4PlV51Tzlb/YR+krGEeXolchQDLoT08D2WDm6OGriQljCMK0+TFLgefaGYvEi6ltvJBKLdw==
+"@nocobase/plugin-logger@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-logger/-/plugin-logger-1.9.29.tgz#d23decb237826eecf15c5dd9e16e1eef127bbbeb"
+  integrity sha512-tV8vKX3h5mi/TixFU+/zbw6JBUQ0+4FUa4APJ+w4+Fmli/bkbKVnzABnotoFYvezuqGJEqIJ/rv4u8CgwbSeYQ==
 
-"@nocobase/plugin-map@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-map/-/plugin-map-1.9.35.tgz#76edc65c26f084f3e3d926f45c3db6d918df4e31"
-  integrity sha512-G1U1OA9PGyYF0O13nFcNSZwOs31T6//mFWNc+fC9dJB3Tu6nBnDeSkXpeGULrM5uEXI6M6b28S03WyrCHaFYrQ==
+"@nocobase/plugin-map@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-map/-/plugin-map-1.9.29.tgz#84e406038f4dbdce76000f77db9d734681618ba5"
+  integrity sha512-niABohrrPQYcDLFdfA+g0yMBZE6Pkfww6ddiam4ngLmh0O0cZtvDemr8G4Dq8gPrNo+GQkEGllPpNTLUrmDiRQ==
 
-"@nocobase/plugin-mobile-client@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-mobile-client/-/plugin-mobile-client-1.9.35.tgz#449b445e831b522ca1cfcdef4e592c280c90a4e1"
-  integrity sha512-nCNTYCwR/Br0OPuzwEmzMn0e5UUwF08r2EWcNAQ0ZFN1wO08eSICm2qYWpL1Ksgiw4l0f9P6+MuXdJLGhs3JVQ==
+"@nocobase/plugin-mobile-client@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-mobile-client/-/plugin-mobile-client-1.9.29.tgz#fd512aa844677c5f3e4f8568f911587f7d6607d3"
+  integrity sha512-c8C3+RbWravzGBum2DmJH9L2xQLAn9/6nJ1eHMYVIk4BmGzOP8lH7CPJ53V/mPGjdVsIh8n0FlNAWkhaqDzw6Q==
 
-"@nocobase/plugin-mobile@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-mobile/-/plugin-mobile-1.9.35.tgz#5c21751faf137ae8cc8fbf0d576b5b08efb6b117"
-  integrity sha512-7UZTx6zZ2Q+p0xJbLCNsc1YVWK8HE6FIQVgwsq3z9VgG27H2ge1ACiT7Z8N20j0kllEYzb+nF+WzyypYIDyf1Q==
+"@nocobase/plugin-mobile@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-mobile/-/plugin-mobile-1.9.29.tgz#935e1977e5518a84e98253959e07527f77e8b962"
+  integrity sha512-DE6IZrAVmqqbYWCDkNhI7Fyyo9ZWErhhQUXVo7bG8qL/RGQ36NMi3V3JYMpy7W95wbs0k0mKti5Oxb8D97alVA==
 
-"@nocobase/plugin-mock-collections@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-mock-collections/-/plugin-mock-collections-1.9.35.tgz#dea7dffde374342a41c40b7284fe7b0925da22df"
-  integrity sha512-hGOZBXCAClPQWkEPAC8s/ozqs0CyeK7PFR0pQwUV9hHYtjTC/+2d5NbFymwA1c4mXwyDW8b/ttI7YbDKL9MZJg==
+"@nocobase/plugin-mock-collections@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-mock-collections/-/plugin-mock-collections-1.9.29.tgz#a10d69fc5d76b84834f435e8060eb33d3b08091b"
+  integrity sha512-hjv7LCHz4PPCOuaFa08duzM5Ma5vPc5+tIX505Cv6kTkq8SkmK0tz1rT3IiyA2+TLjxxY6MoThvIiUN8P7LVeQ==
 
-"@nocobase/plugin-multi-app-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-multi-app-manager/-/plugin-multi-app-manager-1.9.35.tgz#4cc423739166cd22d25fb3629cedba2c7a5f706a"
-  integrity sha512-LCV1JJZMgP3p/azbidvgKupAQgvBGiNzKUtI0JubBz0SkH2fIs0fy2iUZoEpnypviaVYvIu44ymLn6DqwBzoYg==
+"@nocobase/plugin-multi-app-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-multi-app-manager/-/plugin-multi-app-manager-1.9.29.tgz#f8daa809a623bb0300796354cfe1b10e1ba76140"
+  integrity sha512-Je9gL3jzGeBB1A+Y3ppI1EBObJiDIXYvmB5EKeDqtPmROZ+nTi/pET6IjfMgCPAPNsRHQnRTvKwVVddXeuJ3bg==
 
-"@nocobase/plugin-multi-app-share-collection@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-multi-app-share-collection/-/plugin-multi-app-share-collection-1.9.35.tgz#88d5a6a185192dba6a423dcbfb003001a8f63a85"
-  integrity sha512-QKiOrkY2V5N13IzxTn2KE3+06or2iysE7JNnyfoI3uFYe1pstZyqjRIJvkOx9yZ+0XT6ROtU93mGWghjVlJwUg==
+"@nocobase/plugin-multi-app-share-collection@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-multi-app-share-collection/-/plugin-multi-app-share-collection-1.9.29.tgz#69e1bb6756245289b322a9e05303687539758fcb"
+  integrity sha512-zWo8p6twWXlxsjpUcBjGlQ1SKvye+ldMgcs7hQOlvCIYHYWhAiV6i1EWZASh576IOlUv1HC+PfHKuvwEoVnNdA==
 
-"@nocobase/plugin-notification-email@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-notification-email/-/plugin-notification-email-1.9.35.tgz#a536abfd83b55e9a54cab55ea5cd05a2b7efe6f3"
-  integrity sha512-Beb7UBfHOwtIUClUTT96xrKFPMho57EV5yW9nWxlTeovEIyoLc3Tfer6Yg0ZvPq1kdwHpxhKzlYwLaYzAFcGsQ==
+"@nocobase/plugin-notification-email@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-notification-email/-/plugin-notification-email-1.9.29.tgz#1e5403bc1389993f76b55c4368777fc32f58d1e2"
+  integrity sha512-JslEedZ2qVn0vlOHmpXK79aA9aEqB1E3dAbL9w86vutSo9leSWbQjiccDQXSrQKUTCiddEf23LNszjGEBYWFxw==
 
-"@nocobase/plugin-notification-in-app-message@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-notification-in-app-message/-/plugin-notification-in-app-message-1.9.35.tgz#bb6cdf9a4deb26c38bd5b4c125558e68b09fdce2"
-  integrity sha512-OyreKDq52mu6vdFTd56ap2bCLf5HgEJO/hBBIJzH6xzwrtLhFWBFkMeRlO8xZ6OfTVKXK4vXvmgxGu3qFyd+XQ==
+"@nocobase/plugin-notification-in-app-message@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-notification-in-app-message/-/plugin-notification-in-app-message-1.9.29.tgz#24a34a59ba9ff0581ecf86ec83c0263b9d96b689"
+  integrity sha512-U5CWHTNtc/nn0tFqr6AW/9c/mP7AiiUXqIPkqxBY408do1lwjiCw7ro37Dp/RLmYNoyI2DLGhbFZtO0+jzwcbw==
   dependencies:
     immer "^10.1.1"
 
-"@nocobase/plugin-notification-manager@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-notification-manager/-/plugin-notification-manager-1.9.35.tgz#3648269c5d13de2e8062b04a9fb6490a3d78089e"
-  integrity sha512-y2iu1UxaLGWjPtzHFZZyDrZ9Rdh8UKKfeU3lz6rQlKSWbuwoGOMWcM5Tv7x7u6koZ+CXxgM/Rvu9oiA/MfIlIw==
+"@nocobase/plugin-notification-manager@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-notification-manager/-/plugin-notification-manager-1.9.29.tgz#c58f6412acaf2bbe9d93be5534e7bcd30055ca7a"
+  integrity sha512-eh8l138wP8r8LtUi6iabH+N0X0ZRZImcWXGLXTsFsiMNYjY5oWV8xHzkNKV2dn7O6Xsjp13RZWb4VSl79/CiQQ==
 
-"@nocobase/plugin-public-forms@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-public-forms/-/plugin-public-forms-1.9.35.tgz#a5c3b3040eb80ac0474a51fa364a381c94ce1974"
-  integrity sha512-/qA3CVREsMAyi95xFMA1NxqylFri5D5JxcJn+/m+HpjJEA+kwozTUGEvyrjJTFkdwPHh6bcyBe8CSRqWlh5EBw==
+"@nocobase/plugin-public-forms@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-public-forms/-/plugin-public-forms-1.9.29.tgz#eeeaa807a38bcc7dd84a4f95741df10c5864dcf4"
+  integrity sha512-uDMtig2/Os1McBj9q8QC/x75+c3rTHix0A1G30Tolrg3y2sXLiwRNiyAM4Ehpl7FK0l2nTqFpe8YYmRd3rQH+w==
 
-"@nocobase/plugin-snapshot-field@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-snapshot-field/-/plugin-snapshot-field-1.9.35.tgz#16e919e21ea9c76433fe522e89bab3b9b1b6067a"
-  integrity sha512-UIsGRiij6rntQjCIButRk73xEUkn6WQB1+kLNED8kLVtQRfZWdgvXTiYutKdHDaZYry+6C9CmxBqELUBrqj5YA==
+"@nocobase/plugin-snapshot-field@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-snapshot-field/-/plugin-snapshot-field-1.9.29.tgz#68255b83458e66afb5b9c2b15725eb35ee479486"
+  integrity sha512-Uh36YEpuFo9/LIAxG78Cw/3wwYpHhQ+xz9mVkI9W1egZCLscLLBxGdCJqHEypt4jIRVw6ZVI8FN+8C/GksPimg==
 
-"@nocobase/plugin-system-settings@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-system-settings/-/plugin-system-settings-1.9.35.tgz#b70688b7b404d500cc4e6f1cf43718649dc38c0e"
-  integrity sha512-clPcH/C+GzdlZqTYV7b1nJgOg2GHH7GkJBEJjI5koFE1PcJvFVgh7iIBS7dk8zs11GE2AAGQMSqZfaOkCuAc7g==
+"@nocobase/plugin-system-settings@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-system-settings/-/plugin-system-settings-1.9.29.tgz#ebff36663de2d06916b72ec8e8ab03a58fab2c36"
+  integrity sha512-IARrzI2yUcHp78sgn3KDaf/wdFvl1RjWyr8Qxz+D3PQYWazp9EcPnMU753xAGZzY1NYrumRDFxKZd2Uak6v7cw==
 
-"@nocobase/plugin-text-copy@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-text-copy/-/plugin-text-copy-1.9.35.tgz#1c491c1c60f2f46e36a1ee1e5aedd48aa86ff4fc"
-  integrity sha512-Ko16zb+bYTdp2sI7Arn/dMUaAJlxn0TOhNhp+ricFJJyQPApklpJxaZtZe4t4mlHYB6XuINm+niH7BhfB65TDg==
+"@nocobase/plugin-text-copy@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-text-copy/-/plugin-text-copy-1.9.29.tgz#e6b2a896a03d9b0cfb835c523c983821177b79d9"
+  integrity sha512-jR29B/4Xy2/xqW4YLrsqRDrHBEJOSI4K7NtUm49YEs1cbYB/SdapjxHbhF6L513VDxkytjD0AtpOfOWr9UOeEQ==
 
-"@nocobase/plugin-theme-editor@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-theme-editor/-/plugin-theme-editor-1.9.35.tgz#63345d12860cda131e97fb56ee316caecfb4898a"
-  integrity sha512-+MavwiO0Jzey7fPLCsn9FBXoA5DT8hfiVHfOiVbEa35PSwonxvnXooleRLfmmmZ7Dvfb7IGQEjOESjAegThC5g==
+"@nocobase/plugin-theme-editor@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-theme-editor/-/plugin-theme-editor-1.9.29.tgz#81ac16fa67e7bbc1b19493eb0aacb20799e55ca6"
+  integrity sha512-F6K0ABxr+p4osDN64U0vK+Nrfk6K7MjgN1mae6piMvSZVAcfvOYiyqjEK37kHreiQMmEOQUrwcNdus7OoRwy1Q==
 
-"@nocobase/plugin-ui-schema-storage@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-ui-schema-storage/-/plugin-ui-schema-storage-1.9.35.tgz#2ac6d103854d8d7f2321f6c88b95b035075e92ec"
-  integrity sha512-V5nUtMsRSYbUGHb5B4te8vLXUlPWCE4kwz7H+FRphRwDf2cwMfQPY7h8dJlzb8mdPvLGIvNLCnfW1itnZzv+MQ==
+"@nocobase/plugin-ui-schema-storage@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-ui-schema-storage/-/plugin-ui-schema-storage-1.9.29.tgz#3a448cbbfef9334268a951b2af789b5dabaaef2b"
+  integrity sha512-7Nlo8d4uBnoUuWIIYCOwRVCxPmK3ICzHTqJEj3HMBgbwQ/YO1uQ4loMA5nEbfRXbx8T1jC0Gqgg0Hom9QScDqw==
 
-"@nocobase/plugin-user-data-sync@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-user-data-sync/-/plugin-user-data-sync-1.9.35.tgz#d9a3c18ff882ef6f0ac31e909ce8c53c61a549a0"
-  integrity sha512-XwRzYELdMs9i0MN+jfXa9Kg2Zzaam6ma2QEUu1O2SB6RdRKgzNkF05v7aPwDE2PTeN9B4+J/mbv06OeOK4MBRQ==
+"@nocobase/plugin-user-data-sync@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-user-data-sync/-/plugin-user-data-sync-1.9.29.tgz#9bcb5800fb7b36660a72bb53892287f0a9d92f8e"
+  integrity sha512-qkioarLoDMF/OaxBdiTBMksco/T8L42sn4eG4tOuzfTnblXadC4ZYX8ip5iAeagGQEJd22z/t340E9Mybi0nAw==
 
-"@nocobase/plugin-users@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-users/-/plugin-users-1.9.35.tgz#25522405917ea39c05306f21fb893997e6edf866"
-  integrity sha512-2OZjWrPSnpGSROX5os9YM0ug+6K72LmTjQYsvyA7yY2BRrgFWEOEHZZnurBlyU1heC917S2MzNorQrevt3Jdyg==
+"@nocobase/plugin-users@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-users/-/plugin-users-1.9.29.tgz#54663fb6dba7502fa8ddb0f879e333b262a930c6"
+  integrity sha512-R6T33I2nRqjQqBR5aERoPVeo0pnnbW4G7dY046UqXNqOmhlYKdZdZgWnuJjTALv8bMZUnKU3XRuSx8GLpiM+dQ==
 
-"@nocobase/plugin-verification@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-verification/-/plugin-verification-1.9.35.tgz#95720e28d0717587e014f436f1f119c7d921ae01"
-  integrity sha512-+k2U9JvKwVTznn00BxWy0st7wBscVDv1+rCswZSKDbvZifZjVpESucMiGDglsYB3Cjr4Wme4iXWt3IedSxtk+A==
+"@nocobase/plugin-verification@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-verification/-/plugin-verification-1.9.29.tgz#bbafaf1b151ef2c14b46310a785692d8dd398ff6"
+  integrity sha512-eWQggKYIqZ0fMyIf73GbAM7QHC0emPGwP9AXhJMKb8mtshM8P8h0vV1RAnJG41dlFVRiOsjRFennk5df91sLWA==
 
-"@nocobase/plugin-workflow-action-trigger@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-action-trigger/-/plugin-workflow-action-trigger-1.9.35.tgz#38f10234079ba93227a3e8fe512708a482ef7cd5"
-  integrity sha512-0PXTb5k8JYYnY0soOJwLixo2cC57Mr8aZavUIHR4foP9bN3eDISjRVzu2hvCV1S1zjyyZXJtWtm1/+Xpx3Pokg==
+"@nocobase/plugin-workflow-action-trigger@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-action-trigger/-/plugin-workflow-action-trigger-1.9.29.tgz#2b56ea8f30c5f251b82f827f5e0c7891b3858625"
+  integrity sha512-aAPM5pyDp2nmOIjVcEtNTys1omOMVXpzTdUrgzTKiDUFCdk0wIL9m2J5IhO+AOyg2Ge0ydwsDemWAovxdIilsg==
 
-"@nocobase/plugin-workflow-aggregate@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-aggregate/-/plugin-workflow-aggregate-1.9.35.tgz#3b3f7b89178a96c06f3d608594dc1f2de8949457"
-  integrity sha512-hdnfSXJclkghn+9E9WDjOJX9koI4dmPQbP7UE/cbT8chCwJw/cuUdRKhrHkMRO1lIqZXtOelmZCM+XQ4JI26jQ==
+"@nocobase/plugin-workflow-aggregate@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-aggregate/-/plugin-workflow-aggregate-1.9.29.tgz#22b3957802e19ab9f33105f9774d1d16ee64c45a"
+  integrity sha512-SxT6swLH4ZwRYGDv31IPjMc6mTYp/u3FfpJq38+BUwRyC5g+rh+S+Zap+O+OWgI1zVeEMpyiCDg4mfdOBAf4hQ==
 
-"@nocobase/plugin-workflow-cc@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-cc/-/plugin-workflow-cc-1.9.35.tgz#403be4b991754b49b5b46ee0b03991cf8195fd28"
-  integrity sha512-uBhC4QQvdNpRuWd4msGLdtlI7533PUo7gufrKGj7ZT1ycluWSKU4D7uL6+IKyATAJhepSpQ5y6jnkRG3Omv8WA==
+"@nocobase/plugin-workflow-cc@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-cc/-/plugin-workflow-cc-1.9.29.tgz#f4d9587bf3ea591e09953700ed365cf135e8da97"
+  integrity sha512-+rluOiI5x8sCoDTUVgwz6c+aKPPqU4jMhMGevm8m9/VMUdvq20BitqrAIqnnx+1Aqj6BJNLS/umVEUrvflt15Q==
 
-"@nocobase/plugin-workflow-delay@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-delay/-/plugin-workflow-delay-1.9.35.tgz#a1846d54e03e4a287675bfe16d8a12f4ea13486d"
-  integrity sha512-kBtWGp6vATmgov2kPJJNoqSDXCzS8Fgg+isOeqRE0oVVswjhpw2so6kM6EJPKY+tCQeBmlQcp/ODhqRiId3/3g==
+"@nocobase/plugin-workflow-delay@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-delay/-/plugin-workflow-delay-1.9.29.tgz#e24728851a8b28d0f06039a78fbcbef49f36183b"
+  integrity sha512-KzC9ogpju06lJSqHhy6HVtLE6DxfT5e0IbzPF8Y9CG9oihq2lNA0hDRDfXvecddTwcXgAiLJefTQJL2PzN104g==
 
-"@nocobase/plugin-workflow-dynamic-calculation@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-dynamic-calculation/-/plugin-workflow-dynamic-calculation-1.9.35.tgz#9fa520f0229414a62aa48acd73fdd1cd598afa86"
-  integrity sha512-jNmowoBbUW0m8MVTxVnsXtnzXqLW5WK8Ef6tmKogZOz821kG6uo8SClNIrpCuI+2WIxgP5RQK1stPS8VUXahWg==
+"@nocobase/plugin-workflow-dynamic-calculation@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-dynamic-calculation/-/plugin-workflow-dynamic-calculation-1.9.29.tgz#48e442b07f10fb5a9ae8eb23417286fe2e29b60e"
+  integrity sha512-4aUZOYbHaPRuvJIi+FRy4B87K0S3++RKd0E0q2AFJAj4KgRiEYE4orVM55z8dxoAGw+avFitRM+Jyqde5hPZfQ==
 
-"@nocobase/plugin-workflow-json-query@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-json-query/-/plugin-workflow-json-query-1.9.35.tgz#409e2f1fa16745ebceb73750ac0b5beab2bc4eec"
-  integrity sha512-7ARZgrGHmx90AbwzisU/6E3qxgoy8t01qJy4AVSNCF74GZqFCgbKhBaH0Hko3YxmybvX4FEjlOXRAh27/r/YxA==
+"@nocobase/plugin-workflow-json-query@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-json-query/-/plugin-workflow-json-query-1.9.29.tgz#9a8d7e371a37cf9b2d8b232a6639a9301b94ad75"
+  integrity sha512-wpuwyTsuSZNviwqz0gWhWJcE8fLEoJtoKhyg0ADQB2a8fv0QeTYda9g1ENrmzuCAPQl2lp5fvgGBT2Isl1oL3Q==
 
-"@nocobase/plugin-workflow-json-variable-mapping@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-json-variable-mapping/-/plugin-workflow-json-variable-mapping-1.9.35.tgz#0ea7d815526725cc4ea945603a703b8330ebd20e"
-  integrity sha512-Dn3bm78g41zq4W69BoYISijgRvUdYHVIgxMY1qq4HX4dI08xjCaMsDwjyWEITGY/sryTE/J4bt5ScUz3XFDhAA==
+"@nocobase/plugin-workflow-json-variable-mapping@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-json-variable-mapping/-/plugin-workflow-json-variable-mapping-1.9.29.tgz#0287529ea2a287f03027857bd19ed8ea380fdb2f"
+  integrity sha512-pWSdaiuecM3O0ZPVNgn3A2K7ylqmHTSnvlrPFnDJebpToSZYBuOmwz4tDOZ/63k0MzNPTFAISotAAPOHvzZitw==
 
-"@nocobase/plugin-workflow-loop@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-loop/-/plugin-workflow-loop-1.9.35.tgz#8d665945f6d97ed2eec3c8422e96bc26a2d85cd0"
-  integrity sha512-HAPhU6cOdZ/QTLAoAoBP32kt9IaELC5+4vZEGf4amiY7ByxncVbu4pzTO3cC8Kmg16U2RJOTGqW+31x+Mhcy5g==
+"@nocobase/plugin-workflow-loop@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-loop/-/plugin-workflow-loop-1.9.29.tgz#797ec1a2af8f0fe657cf2b62031b35da94417f40"
+  integrity sha512-CmD02WqHWuCiGTrucOX6lTH+EOD946aRBzpN9OwufapIs7lJBGhWRMkqjaQHA0SK+AaNKNKtvcT7snBJpvYleA==
 
-"@nocobase/plugin-workflow-mailer@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-mailer/-/plugin-workflow-mailer-1.9.35.tgz#38b550a25862c5953921a2bd2e4d3cbe554a1cb0"
-  integrity sha512-l2Rso7chqgrRGtMH1B2ZtvWz/HvUaH9wuS0mWMS7rzLiBYpyZgk5OAEMVubyURYAhNvx799PHzVTh8xPlsLXKg==
+"@nocobase/plugin-workflow-mailer@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-mailer/-/plugin-workflow-mailer-1.9.29.tgz#b66954fd4ed9be2ead536154071c7aacf0329a0f"
+  integrity sha512-+fAfdyNVDmxv3Lsx43ua+S5SB7OfRFGzQ6i/ljLy27DoO6JGnk67q9an5iVgU63wAw4dSVBn+fBMwy1+cYYGSQ==
 
-"@nocobase/plugin-workflow-manual@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-manual/-/plugin-workflow-manual-1.9.35.tgz#910440523418022c6e19c7a6ad64d9bddaa78efa"
-  integrity sha512-IMFw57MtAIVRWyq25LIVFojSFy+/RQxfdwTJRq+pWwV1rNCY7E2Yx4fqX8z2b49dU9wzuUuVQgyEBjFZo5cWLA==
+"@nocobase/plugin-workflow-manual@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-manual/-/plugin-workflow-manual-1.9.29.tgz#1c9c4bd93f81a79cd3900235d3f5bf843eeacea4"
+  integrity sha512-QWWJ8EcHG2XmRHCX38GHf8IZS/DG/lgrSjgYFiOotDFKgb9JmIzTyR2FUutoBhHxg7gVajj08qikRBJayGhQOQ==
 
-"@nocobase/plugin-workflow-notification@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-notification/-/plugin-workflow-notification-1.9.35.tgz#1671116f6288d8078a29dcffd26aac96d2ecd806"
-  integrity sha512-eMRw/Jd73HyA9Y9JYmus4VQyuwNMmORHuI9jk+A1l1ddEtchoIZlrf3T6xRkCGbnGnSISJEf7rcO/pyw8o84KQ==
+"@nocobase/plugin-workflow-notification@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-notification/-/plugin-workflow-notification-1.9.29.tgz#a1b2e1ae91472500ff2b0090dbeafab318499263"
+  integrity sha512-JfcEUwYD8wqFv2Y2SU1qrnzfEFkutb7eV3aT3xpJVTKrr9457U4PsdgMkdfUANDt4NTsVFMPbvHdbgL0d8zAGQ==
 
-"@nocobase/plugin-workflow-parallel@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-parallel/-/plugin-workflow-parallel-1.9.35.tgz#b241ed08317e97b2cdafa4da6267932127c9a495"
-  integrity sha512-WBGiyKgiXrcds86m9TiLOqLsidgGDkk7jx84RarbfwblAhZLwPxUoRRACtM7LJIrPCs7yjLsj6J/A0bLj5aBUQ==
+"@nocobase/plugin-workflow-parallel@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-parallel/-/plugin-workflow-parallel-1.9.29.tgz#a649b386c0b8f62624deeff4714d522fba2213d7"
+  integrity sha512-MFTBlvWy2KfSv76O7ygRFjE+Tfd/DP7D4FbkR6Xj0IgBah1R2xyV9fy4VX9OBftvl8G8nktqnAt9fbClUg1H4Q==
 
-"@nocobase/plugin-workflow-request@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-request/-/plugin-workflow-request-1.9.35.tgz#e0439b54db0965e54a391b70c09b1018804ff2b2"
-  integrity sha512-INO3rBFpQv9qwNdSwhKNY9hL0kC/e65hU7H/vZDIcUWuT+dnIb+fetXFTCiqpitTllNanle0VkgnXmcwxVl1tw==
+"@nocobase/plugin-workflow-request@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-request/-/plugin-workflow-request-1.9.29.tgz#b9cac70b8d99a54fc40a5c577d54986fd16d99f3"
+  integrity sha512-PrRVDQDtZsxRBB58G7QjXMDa8gX8vAKkiCMkzOo/sBaoqZkwYYrXH0zP0uJs+8DJQSxHZtrVOt6ocICRcERdjA==
 
-"@nocobase/plugin-workflow-response-message@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-response-message/-/plugin-workflow-response-message-1.9.35.tgz#6a1fde5036d93dafe896f154e32825fb218802a0"
-  integrity sha512-ZvTo+9n+wAFpBEb7yqUbUVc/DQWo44zUxerMndCEK/RXON7vpzcjXO9rGBaGNNQ5SM7lkiYI87WyHrKFsGUzxA==
+"@nocobase/plugin-workflow-response-message@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-response-message/-/plugin-workflow-response-message-1.9.29.tgz#b070e37f2fdf44d9f5d791e874d00ec031bb7eb6"
+  integrity sha512-5I8UTVe6Ewe383OBqRIkgeDIbYO+oc73jDQ3q3AyFPDl8KMv+8EEjQWDdypTNvocTlS6rxyQVIeBJXvUWk93Fw==
 
-"@nocobase/plugin-workflow-sql@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow-sql/-/plugin-workflow-sql-1.9.35.tgz#313883fe9c607176d0d6e6615e71fe968440132f"
-  integrity sha512-4LqAJODK4fLYWDPTmFz6LAdGEoRTAWu2nuU6L247e5mTOKt/JJWG63cJahOqJgfyBXoLT99+wRByIPE/KWhO5Q==
+"@nocobase/plugin-workflow-sql@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow-sql/-/plugin-workflow-sql-1.9.29.tgz#13e120423f0ee30bf03ad43ed129864c6dafb3a8"
+  integrity sha512-Vi64fBbeXhg//jLCGtw+qq6Mu3uLCDPeC2DFRTvhLKcXk1U6YS4bT/N8Qav4seRiG9GZHNIFgVySLeHz7LXYrQ==
 
-"@nocobase/plugin-workflow@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/plugin-workflow/-/plugin-workflow-1.9.35.tgz#83f857c66ad8fd55221758afcca1744d301b1b16"
-  integrity sha512-LAQZjlKDfGIwKCOJqAfVB/+LXZ2uoMNemrk00/HuP5rAwRUIfcUTHsHN0HBXgmIeXr/bLXiI4GPQ/rxMzUclKg==
+"@nocobase/plugin-workflow@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/plugin-workflow/-/plugin-workflow-1.9.29.tgz#44a781c726d1980112c9d10a6c8a3547de8b84ab"
+  integrity sha512-iTzFCpRxRtPyGSEcSeOC1Hi8CZGFfpsg+RLJMGbL/ymGsi1GFdSrg6/l+n8yjgVRGJbaSr5X5u/vGD4zpvHgAw==
 
-"@nocobase/preset-nocobase@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/preset-nocobase/-/preset-nocobase-1.9.35.tgz#b63ba70f6211a910672f7d40b39acd0a4a5aee3d"
-  integrity sha512-u+3fLoH1OwmRP8Ly7VF6ADxCeET0C5UVl/H3ezswWJPJ6oeFrW5oWz2lyXpZE9vTQnldx90Rj3OP6tY5IgiVcw==
+"@nocobase/preset-nocobase@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/preset-nocobase/-/preset-nocobase-1.9.29.tgz#70969ecb3ab3f045fb7a939f2e148cfde9f25163"
+  integrity sha512-lwcXulk2WjbVIPIJP4Zcf0e48v199qqdrP6a7cUntboZ0QMrF3RA7WmL8YZF1mK7X4zAXPQ9eMQ5BO6cvout7w==
   dependencies:
     "@formily/json-schema" "2.x"
-    "@nocobase/plugin-acl" "1.9.35"
-    "@nocobase/plugin-action-bulk-edit" "1.9.35"
-    "@nocobase/plugin-action-bulk-update" "1.9.35"
-    "@nocobase/plugin-action-custom-request" "1.9.35"
-    "@nocobase/plugin-action-duplicate" "1.9.35"
-    "@nocobase/plugin-action-export" "1.9.35"
-    "@nocobase/plugin-action-import" "1.9.35"
-    "@nocobase/plugin-action-print" "1.9.35"
-    "@nocobase/plugin-ai" "1.9.35"
-    "@nocobase/plugin-api-doc" "1.9.35"
-    "@nocobase/plugin-api-keys" "1.9.35"
-    "@nocobase/plugin-async-task-manager" "1.9.35"
-    "@nocobase/plugin-audit-logs" "1.9.35"
-    "@nocobase/plugin-auth" "1.9.35"
-    "@nocobase/plugin-auth-sms" "1.9.35"
-    "@nocobase/plugin-backup-restore" "1.9.35"
-    "@nocobase/plugin-block-iframe" "1.9.35"
-    "@nocobase/plugin-block-template" "1.9.35"
-    "@nocobase/plugin-block-workbench" "1.9.35"
-    "@nocobase/plugin-calendar" "1.9.35"
-    "@nocobase/plugin-charts" "1.9.35"
-    "@nocobase/plugin-client" "1.9.35"
-    "@nocobase/plugin-collection-sql" "1.9.35"
-    "@nocobase/plugin-collection-tree" "1.9.35"
-    "@nocobase/plugin-data-source-main" "1.9.35"
-    "@nocobase/plugin-data-source-manager" "1.9.35"
-    "@nocobase/plugin-data-visualization" "1.9.35"
-    "@nocobase/plugin-departments" "1.9.35"
-    "@nocobase/plugin-environment-variables" "1.9.35"
-    "@nocobase/plugin-error-handler" "1.9.35"
-    "@nocobase/plugin-field-attachment-url" "1.9.35"
-    "@nocobase/plugin-field-china-region" "1.9.35"
-    "@nocobase/plugin-field-formula" "1.9.35"
-    "@nocobase/plugin-field-m2m-array" "1.9.35"
-    "@nocobase/plugin-field-markdown-vditor" "1.9.35"
-    "@nocobase/plugin-field-sequence" "1.9.35"
-    "@nocobase/plugin-field-sort" "1.9.35"
-    "@nocobase/plugin-file-manager" "1.9.35"
-    "@nocobase/plugin-file-previewer-office" "1.9.35"
-    "@nocobase/plugin-gantt" "1.9.35"
-    "@nocobase/plugin-graph-collection-manager" "1.9.35"
-    "@nocobase/plugin-kanban" "1.9.35"
-    "@nocobase/plugin-license" "1.9.35"
-    "@nocobase/plugin-locale-tester" "1.9.35"
-    "@nocobase/plugin-localization" "1.9.35"
-    "@nocobase/plugin-logger" "1.9.35"
-    "@nocobase/plugin-map" "1.9.35"
-    "@nocobase/plugin-mobile" "1.9.35"
-    "@nocobase/plugin-mobile-client" "1.9.35"
-    "@nocobase/plugin-mock-collections" "1.9.35"
-    "@nocobase/plugin-multi-app-manager" "1.9.35"
-    "@nocobase/plugin-multi-app-share-collection" "1.9.35"
-    "@nocobase/plugin-notification-email" "1.9.35"
-    "@nocobase/plugin-notification-in-app-message" "1.9.35"
-    "@nocobase/plugin-notification-manager" "1.9.35"
-    "@nocobase/plugin-public-forms" "1.9.35"
-    "@nocobase/plugin-snapshot-field" "1.9.35"
-    "@nocobase/plugin-system-settings" "1.9.35"
-    "@nocobase/plugin-text-copy" "1.9.35"
-    "@nocobase/plugin-theme-editor" "1.9.35"
-    "@nocobase/plugin-ui-schema-storage" "1.9.35"
-    "@nocobase/plugin-user-data-sync" "1.9.35"
-    "@nocobase/plugin-users" "1.9.35"
-    "@nocobase/plugin-verification" "1.9.35"
-    "@nocobase/plugin-workflow" "1.9.35"
-    "@nocobase/plugin-workflow-action-trigger" "1.9.35"
-    "@nocobase/plugin-workflow-aggregate" "1.9.35"
-    "@nocobase/plugin-workflow-cc" "1.9.35"
-    "@nocobase/plugin-workflow-delay" "1.9.35"
-    "@nocobase/plugin-workflow-dynamic-calculation" "1.9.35"
-    "@nocobase/plugin-workflow-json-query" "1.9.35"
-    "@nocobase/plugin-workflow-json-variable-mapping" "1.9.35"
-    "@nocobase/plugin-workflow-loop" "1.9.35"
-    "@nocobase/plugin-workflow-mailer" "1.9.35"
-    "@nocobase/plugin-workflow-manual" "1.9.35"
-    "@nocobase/plugin-workflow-notification" "1.9.35"
-    "@nocobase/plugin-workflow-parallel" "1.9.35"
-    "@nocobase/plugin-workflow-request" "1.9.35"
-    "@nocobase/plugin-workflow-response-message" "1.9.35"
-    "@nocobase/plugin-workflow-sql" "1.9.35"
-    "@nocobase/server" "1.9.35"
+    "@nocobase/plugin-acl" "1.9.29"
+    "@nocobase/plugin-action-bulk-edit" "1.9.29"
+    "@nocobase/plugin-action-bulk-update" "1.9.29"
+    "@nocobase/plugin-action-custom-request" "1.9.29"
+    "@nocobase/plugin-action-duplicate" "1.9.29"
+    "@nocobase/plugin-action-export" "1.9.29"
+    "@nocobase/plugin-action-import" "1.9.29"
+    "@nocobase/plugin-action-print" "1.9.29"
+    "@nocobase/plugin-ai" "1.9.29"
+    "@nocobase/plugin-api-doc" "1.9.29"
+    "@nocobase/plugin-api-keys" "1.9.29"
+    "@nocobase/plugin-async-task-manager" "1.9.29"
+    "@nocobase/plugin-audit-logs" "1.9.29"
+    "@nocobase/plugin-auth" "1.9.29"
+    "@nocobase/plugin-auth-sms" "1.9.29"
+    "@nocobase/plugin-backup-restore" "1.9.29"
+    "@nocobase/plugin-block-iframe" "1.9.29"
+    "@nocobase/plugin-block-template" "1.9.29"
+    "@nocobase/plugin-block-workbench" "1.9.29"
+    "@nocobase/plugin-calendar" "1.9.29"
+    "@nocobase/plugin-charts" "1.9.29"
+    "@nocobase/plugin-client" "1.9.29"
+    "@nocobase/plugin-collection-sql" "1.9.29"
+    "@nocobase/plugin-collection-tree" "1.9.29"
+    "@nocobase/plugin-data-source-main" "1.9.29"
+    "@nocobase/plugin-data-source-manager" "1.9.29"
+    "@nocobase/plugin-data-visualization" "1.9.29"
+    "@nocobase/plugin-departments" "1.9.29"
+    "@nocobase/plugin-environment-variables" "1.9.29"
+    "@nocobase/plugin-error-handler" "1.9.29"
+    "@nocobase/plugin-field-attachment-url" "1.9.29"
+    "@nocobase/plugin-field-china-region" "1.9.29"
+    "@nocobase/plugin-field-formula" "1.9.29"
+    "@nocobase/plugin-field-m2m-array" "1.9.29"
+    "@nocobase/plugin-field-markdown-vditor" "1.9.29"
+    "@nocobase/plugin-field-sequence" "1.9.29"
+    "@nocobase/plugin-field-sort" "1.9.29"
+    "@nocobase/plugin-file-manager" "1.9.29"
+    "@nocobase/plugin-file-previewer-office" "1.9.29"
+    "@nocobase/plugin-gantt" "1.9.29"
+    "@nocobase/plugin-graph-collection-manager" "1.9.29"
+    "@nocobase/plugin-kanban" "1.9.29"
+    "@nocobase/plugin-license" "1.9.29"
+    "@nocobase/plugin-locale-tester" "1.9.29"
+    "@nocobase/plugin-localization" "1.9.29"
+    "@nocobase/plugin-logger" "1.9.29"
+    "@nocobase/plugin-map" "1.9.29"
+    "@nocobase/plugin-mobile" "1.9.29"
+    "@nocobase/plugin-mobile-client" "1.9.29"
+    "@nocobase/plugin-mock-collections" "1.9.29"
+    "@nocobase/plugin-multi-app-manager" "1.9.29"
+    "@nocobase/plugin-multi-app-share-collection" "1.9.29"
+    "@nocobase/plugin-notification-email" "1.9.29"
+    "@nocobase/plugin-notification-in-app-message" "1.9.29"
+    "@nocobase/plugin-notification-manager" "1.9.29"
+    "@nocobase/plugin-public-forms" "1.9.29"
+    "@nocobase/plugin-snapshot-field" "1.9.29"
+    "@nocobase/plugin-system-settings" "1.9.29"
+    "@nocobase/plugin-text-copy" "1.9.29"
+    "@nocobase/plugin-theme-editor" "1.9.29"
+    "@nocobase/plugin-ui-schema-storage" "1.9.29"
+    "@nocobase/plugin-user-data-sync" "1.9.29"
+    "@nocobase/plugin-users" "1.9.29"
+    "@nocobase/plugin-verification" "1.9.29"
+    "@nocobase/plugin-workflow" "1.9.29"
+    "@nocobase/plugin-workflow-action-trigger" "1.9.29"
+    "@nocobase/plugin-workflow-aggregate" "1.9.29"
+    "@nocobase/plugin-workflow-cc" "1.9.29"
+    "@nocobase/plugin-workflow-delay" "1.9.29"
+    "@nocobase/plugin-workflow-dynamic-calculation" "1.9.29"
+    "@nocobase/plugin-workflow-json-query" "1.9.29"
+    "@nocobase/plugin-workflow-json-variable-mapping" "1.9.29"
+    "@nocobase/plugin-workflow-loop" "1.9.29"
+    "@nocobase/plugin-workflow-mailer" "1.9.29"
+    "@nocobase/plugin-workflow-manual" "1.9.29"
+    "@nocobase/plugin-workflow-notification" "1.9.29"
+    "@nocobase/plugin-workflow-parallel" "1.9.29"
+    "@nocobase/plugin-workflow-request" "1.9.29"
+    "@nocobase/plugin-workflow-response-message" "1.9.29"
+    "@nocobase/plugin-workflow-sql" "1.9.29"
+    "@nocobase/server" "1.9.29"
     cronstrue "^2.11.0"
     fs-extra "^11.1.1"
 
-"@nocobase/resourcer@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/resourcer/-/resourcer-1.9.35.tgz#ea50006b8e861e2685f4199c271012977eba59e7"
-  integrity sha512-M2cgrq7k7p23aYmnheFIH4v2yeJ7UmAZd/WEWVYGgoWgRbIgIJXITgRUm2tcx8MHQV5xawrIUGKGBB8Eoh4tGQ==
+"@nocobase/resourcer@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/resourcer/-/resourcer-1.9.29.tgz#733c212ab52f657c009f013f4111bdfbe2d4a181"
+  integrity sha512-SM+idaawGDe+fCaoIMIyx7t3fgIl6gcJNmu2BaLBBA+q+qTAt6jimZvxTsGaTYLWbINEJn6Dt9VfPkZfX9DI/Q==
   dependencies:
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/utils" "1.9.29"
     deepmerge "^4.2.2"
     koa-compose "^4.1.0"
     lodash "^4.17.21"
     path-to-regexp "^6.3.0"
     qs "^6.9.4"
 
-"@nocobase/sdk@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/sdk/-/sdk-1.9.35.tgz#8ff0a0542e7af06cd84b01a6debd6226557c60bc"
-  integrity sha512-1PYTbX3jNxK5jAGUDuMpYA2Z2BCuTvite96yw2oUxNI3PysQOZmBz4i+3iNNO7TCV6UYqSHUGdqawXlqZ00Llw==
+"@nocobase/sdk@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/sdk/-/sdk-1.9.29.tgz#0f3d44cf6c5ab5b74a3d797b9cc780b142e3610f"
+  integrity sha512-ZgZTlcPChtb1vEuZu8JlpcGaNz73YCPMLjY6FuhJfZW4XQ4Dc9hAG8KC85SUkuVqozUHu5SL6YIJF2EbeXoP8A==
   dependencies:
     axios "^1.7.0"
     qs "^6.10.1"
 
-"@nocobase/server@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/server/-/server-1.9.35.tgz#6e86811f30f5f002176283e119c18252df40c462"
-  integrity sha512-fzy2mA1rd2Foh4JGd7KQcvZR9Zf03OWnY5u7ipjrd0zW6zHVCNYB1ITec8+GftfCnnJfotl8f5Vh8vS/bPLI1A==
+"@nocobase/server@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/server/-/server-1.9.29.tgz#bd58ef007d0c39f5083d151a6d70f04b7a4c8cf0"
+  integrity sha512-lawvd/SM89vnLw0Cw1b15awnK3pSXY5ND4SkBhREtD6nW0tkVpUv7xQoifFj7y6dBIWs1qUuuIv1rIXP6uf8uA==
   dependencies:
     "@formily/json-schema" "2.x"
     "@hapi/topo" "^6.0.0"
     "@koa/cors" "^5.0.0"
     "@koa/multer" "^3.1.0"
     "@koa/router" "^13.1.0"
-    "@nocobase/acl" "1.9.35"
-    "@nocobase/actions" "1.9.35"
-    "@nocobase/auth" "1.9.35"
-    "@nocobase/cache" "1.9.35"
-    "@nocobase/data-source-manager" "1.9.35"
-    "@nocobase/database" "1.9.35"
-    "@nocobase/evaluators" "1.9.35"
-    "@nocobase/lock-manager" "1.9.35"
-    "@nocobase/logger" "1.9.35"
-    "@nocobase/resourcer" "1.9.35"
-    "@nocobase/sdk" "1.9.35"
-    "@nocobase/snowflake-id" "1.9.35"
-    "@nocobase/telemetry" "1.9.35"
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/acl" "1.9.29"
+    "@nocobase/actions" "1.9.29"
+    "@nocobase/auth" "1.9.29"
+    "@nocobase/cache" "1.9.29"
+    "@nocobase/data-source-manager" "1.9.29"
+    "@nocobase/database" "1.9.29"
+    "@nocobase/evaluators" "1.9.29"
+    "@nocobase/lock-manager" "1.9.29"
+    "@nocobase/logger" "1.9.29"
+    "@nocobase/resourcer" "1.9.29"
+    "@nocobase/sdk" "1.9.29"
+    "@nocobase/snowflake-id" "1.9.29"
+    "@nocobase/telemetry" "1.9.29"
+    "@nocobase/utils" "1.9.29"
     "@types/decompress" "4.2.7"
     "@types/ini" "^1.3.31"
     "@types/koa-send" "^4.1.3"
@@ -4998,17 +4998,17 @@
     ws "^8.13.0"
     xpipe "^1.0.5"
 
-"@nocobase/snowflake-id@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/snowflake-id/-/snowflake-id-1.9.35.tgz#afe2291a9f0c43fbf8d86229c63dfe8b027aaa83"
-  integrity sha512-06GSr6XhYn062xOBRvhCC41R6R9m7bWFjBVS95ebmfnZCRRlHLv1MOmuwMbBnhqFLDGva5n+r1VYRNRfEFtKbQ==
+"@nocobase/snowflake-id@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/snowflake-id/-/snowflake-id-1.9.29.tgz#fb73611258d2c8a3b9530e892358d9bd6962af84"
+  integrity sha512-/Nk1Cdf/YEk5Qxd+86mGcBBLWYlVENg4uiXCetpKFZj2I3vW+nwF7WFLly8knCDeZV8y++UgySYn6v+4rUnV1g==
 
-"@nocobase/telemetry@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/telemetry/-/telemetry-1.9.35.tgz#500eea5da0526bf1b36ce3711c7d9e50006128d3"
-  integrity sha512-wJDh3QvAtITZkxkbyd1JI8P76Nx5InxmBy7Km62xd+GyMQulV0zXLMOzeVo51RGQo79E41vAdwNT63eOmZ8/AA==
+"@nocobase/telemetry@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/telemetry/-/telemetry-1.9.29.tgz#17b5dc35b66242ed972594a988363edde200e0de"
+  integrity sha512-YX9TCOamqDeNsloz+tOs6fafCk5gpenYYvR0p5/dDHbWJac73cg/I04oeVvL+dhe+s30+5MH4eQ7+cpCWhNrqw==
   dependencies:
-    "@nocobase/utils" "1.9.35"
+    "@nocobase/utils" "1.9.29"
     "@opentelemetry/api" "^1.7.0"
     "@opentelemetry/instrumentation" "^0.46.0"
     "@opentelemetry/resources" "^1.19.0"
@@ -5017,13 +5017,13 @@
     "@opentelemetry/sdk-trace-node" "^1.19.0"
     "@opentelemetry/semantic-conventions" "^1.19.0"
 
-"@nocobase/test@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/test/-/test-1.9.35.tgz#87aa89a92fb607e6605146aa5eb0708fff1962b1"
-  integrity sha512-q+JVytkRZnRsyIBi7q6kmewztLcI66IuhdcmUVqu+H4ax/1yDpKZexfdBm1gIyk5iaJlS1v2PmX3CHp4vlzHFw==
+"@nocobase/test@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/test/-/test-1.9.29.tgz#c9cdce4354ff26e7349720aa25cf8d1b31b16e77"
+  integrity sha512-tcfNe7XrqRd+8iLPmejnQEbIB+/FxQBcWQ7x2fNv2zq7BQQ7TgWKstENWlAQ3edCZdAFyNVPisbHdF14rqIh8g==
   dependencies:
     "@faker-js/faker" "8.1.0"
-    "@nocobase/server" "1.9.35"
+    "@nocobase/server" "1.9.29"
     "@playwright/test" "^1.45.3"
     "@testing-library/jest-dom" "^6.4.2"
     "@testing-library/react" "^14.0.0"
@@ -5047,10 +5047,10 @@
     vitest-dom "^0.1.1"
     ws "^8.13.0"
 
-"@nocobase/utils@1.9.35":
-  version "1.9.35"
-  resolved "https://registry.npmmirror.com/@nocobase/utils/-/utils-1.9.35.tgz#3d22f33f04463189a8350bc3f47a3d02fb2d5a1f"
-  integrity sha512-rZ8ZfwsUoltBF8JT+IZMdHDiMHguTRWAOr0Jsk5t410jEffF1Xd+PbqdC/WDrMkO9JgL4elHzuQaE4fAtwQUCw==
+"@nocobase/utils@1.9.29":
+  version "1.9.29"
+  resolved "http://verdaccio/@nocobase/utils/-/utils-1.9.29.tgz#07833b9a546ad6843c55a74ae6fb46b86c4a89f0"
+  integrity sha512-ojOs5xL5SlnVIqt+ije7+uucC1ed6F+gOQz389bwAoaeDkgUdQoVa59tL1PAW4VMb30UjNNvDGkiDRuXW2GKyA==
   dependencies:
     "@budibase/handlebars-helpers" "0.14.0"
     "@hapi/topo" "^6.0.0"
@@ -5058,7 +5058,6 @@
     dayjs "^1.11.9"
     deepmerge "^4.2.2"
     flat-to-nested "^1.1.1"
-    fs-extra "^11.1.1"
     graphlib "^2.1.8"
     handlebars "^4.7.8"
     multer "^1.4.5-lts.2"
@@ -6372,7 +6371,7 @@
     "@types/jsonfile" "*"
     "@types/node" "*"
 
-"@types/geojson@^7946.0.14", "@types/geojson@^7946.0.8":
+"@types/geojson@^7946.0.8":
   version "7946.0.16"
   resolved "http://verdaccio/@types/geojson/-/geojson-7946.0.16.tgz#8ebe53d69efada7044454e3305c19017d97ced2a"
   integrity sha512-6C8nqWur3j98U6+lXDfTUWIfgvZU+EumvpHKcYjujKH7woYyLj2sUmff0tRhrqM7BohUw7Pz3ZB1jj2gW9Fvmg==
@@ -6610,7 +6609,7 @@
   dependencies:
     "@types/express" "*"
 
-"@types/node@*", "@types/node@>=10.0.0", "@types/node@^22.5.4":
+"@types/node@*", "@types/node@>=10.0.0":
   version "22.15.2"
   resolved "http://verdaccio/@types/node/-/node-22.15.2.tgz#1db55aa64618ee93a58c8912f74beefe44aca905"
   integrity sha512-uKXqKN9beGoMdBfcaTY1ecwz6ctxuJAcUlwE55938g0ZJ8lRxwAZqRz2AJ4pzpt5dHdTPMB863UZ0ESiFUcP7A==
@@ -16446,7 +16445,7 @@ lru-cache@6.0.0, lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lru-cache@^10.2.0, lru-cache@^10.2.2, lru-cache@^10.3.0, lru-cache@^10.4.3:
+lru-cache@^10.2.0, lru-cache@^10.2.2, lru-cache@^10.4.3:
   version "10.4.3"
   resolved "http://verdaccio/lru-cache/-/lru-cache-10.4.3.tgz#410fc8a17b70e598013df257c2446b7f3383f119"
   integrity sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==
@@ -16632,17 +16631,6 @@ mariadb@^2.5.6:
     long "^5.2.0"
     moment-timezone "^0.5.34"
     please-upgrade-node "^3.2.0"
-
-mariadb@^3.4.1:
-  version "3.4.1"
-  resolved "http://verdaccio/mariadb/-/mariadb-3.4.1.tgz#7444ee942410bd48f0a713d02b1539785c3c83d8"
-  integrity sha512-h2q6JREwHrzPx7bVVdHCkMGCbCXZmUk6WhDPcNrmhgGoYe15Cbs24Giq/m43oXFO/6Gqz4MTaRrnipWCgtgetQ==
-  dependencies:
-    "@types/geojson" "^7946.0.14"
-    "@types/node" "^22.5.4"
-    denque "^2.1.0"
-    iconv-lite "^0.6.3"
-    lru-cache "^10.3.0"
 
 markdown-it-highlightjs@3.3.1:
   version "3.3.1"

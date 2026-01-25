@@ -3,10 +3,42 @@ import { PluginFileManagerServer } from '@nocobase/plugin-file-manager';
 import { StorageTypeMinio } from './MinioStorageType';
 
 export class PluginStorageMinioServer extends Plugin {
-  async afterAdd() { }
+  async afterAdd() {
+    this.app.on('afterInstall', async () => {
+      await this.afterInstall()
+    })
+  }
 
   async beforeLoad() { }
 
+  // 安装后执行
+  async afterInstall() {
+    // minio storage - file manager
+    // 确保只在你需要的地方执行一次，例如 app.ts 或启动脚本里
+    if (process.env.STORAGE_DEFAULT_TYPE) {
+      const Storages = this.app.db.getRepository('storages');
+
+      await Storages.create({
+        values: {
+          type: process.env.STORAGE_DEFAULT_TYPE,
+          name: process.env.STORAGE_DEFAULT_NAME || 'storageDefaultMinio',
+          title: process.env.STORAGE_DEFAULT_TITLE || 'Storage default minio',
+          baseUrl: process.env.STORAGE_DEFAULT_BASEURL,
+          options: {
+            endPoint: process.env.STORAGE_DEFAULT_ENDPOINT || 'localhost',
+            port: Number(process.env.STORAGE_DEFAULT_PORT) || 9000,
+            expires: 3600,          // 固定值，可按需提取到环境变量
+            accessKey: process.env.STORAGE_DEFAULT_ACCESSKEY || '',
+            secretKey: process.env.STORAGE_DEFAULT_SECRETKEY || '',
+            bucketName: process.env.STORAGE_DEFAULT_BUCKETNAME || 'test',
+          },
+          rules: {
+            size: 20 * 1024 * 1024,  // 20 MB
+          },
+        },
+      });
+    }
+  }
   async load() {
     const plugin = this.app.pm.get(PluginFileManagerServer);
     plugin.registerStorageType('minio-storage', StorageTypeMinio);

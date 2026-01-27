@@ -43,35 +43,36 @@ export class PluginStorageMinioServer extends Plugin {
     const plugin = this.app.pm.get(PluginFileManagerServer);
     plugin.registerStorageType('minio-storage', StorageTypeMinio);
 
-    this.app.resourceManager.define({
-      name: 'dl',
-      actions: {
-        myFile: async (ctx, next) => {
-          const { attachmentId } = ctx.action.params;
+    // 需要测试的时候可以下载附件
+    // this.app.resourceManager.define({
+    //   name: 'dl',
+    //   actions: {
+    //     myFile: async (ctx, next) => {
+    //       const { attachmentId } = ctx.action.params;
 
-          const filePlugin = this.app.pm.get(PluginFileManagerServer) as PluginFileManagerServer;
-          const AttachmentRepo = this.db.getRepository('attachments');
-          const record = await AttachmentRepo.findOne({
-            filterByTk: attachmentId,
-            appends: ['storage'],
-          });
+    //       const filePlugin = this.app.pm.get(PluginFileManagerServer) as PluginFileManagerServer;
+    //       const AttachmentRepo = this.db.getRepository('attachments');
+    //       const record = await AttachmentRepo.findOne({
+    //         filterByTk: attachmentId,
+    //         appends: ['storage'],
+    //       });
 
-          if (!record) {
-            return ctx.throw(404, '附件不存在');
-          }
+    //       if (!record) {
+    //         return ctx.throw(404, '附件不存在');
+    //       }
 
-          const { stream, contentType } = await filePlugin.getFileStream(record);
+    //       const { stream, contentType } = await filePlugin.getFileStream(record);
 
-          ctx.type = contentType || 'application/octet-stream';
-          ctx.set('Content-Disposition', `inline; filename*=UTF-8''${encodeURIComponent(record.filename)}`);
-          ctx.body = stream;
+    //       ctx.type = contentType || 'application/octet-stream';
+    //       ctx.set('Content-Disposition', `inline; filename*=UTF-8''${encodeURIComponent(record.filename)}`);
+    //       ctx.body = stream;
 
-          await next();
-        },
-      },
-    });
+    //       await next();
+    //     },
+    //   },
+    // });
 
-    this.app.acl.allow('dl', '*', 'public');
+    // this.app.acl.allow('dl', '*', 'public');
   }
 
   async install() { }

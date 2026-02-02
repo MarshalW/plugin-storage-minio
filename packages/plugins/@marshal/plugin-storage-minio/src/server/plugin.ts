@@ -20,6 +20,7 @@ export class PluginStorageMinioServer extends Plugin {
 
       await Storages.create({
         values: {
+          id: 346055714406400,
           type: process.env.STORAGE_DEFAULT_TYPE,
           name: process.env.STORAGE_DEFAULT_NAME || 'storageDefaultMinio',
           title: process.env.STORAGE_DEFAULT_TITLE || 'Storage default minio',

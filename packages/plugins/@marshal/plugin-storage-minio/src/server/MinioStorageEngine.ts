@@ -9,6 +9,7 @@ interface ItemBucketMetadata {
 interface MinioStorageOptions {
     minioClient: Client;
     bucketName: string;
+    path?: string;
     // 可选：为上传的文件生成自定义名称
     filename?: (req: Express.Request, file: Express.Multer.File) => Promise<string>;
     // 可选：自定义元数据
@@ -18,12 +19,14 @@ interface MinioStorageOptions {
 export class MinioStorageEngine implements multer.StorageEngine {
     private minioClient: Client;
     private bucketName: string;
+    private path?: string;
     private filename?: (req: Express.Request, file: Express.Multer.File) => Promise<string>;
     private metadata?: (req: Express.Request, file: Express.Multer.File) => Promise<ItemBucketMetadata>;
 
     constructor(options: MinioStorageOptions) {
         this.minioClient = options.minioClient;
         this.bucketName = options.bucketName;
+        this.path = options.path ? options.path.replace(/^\/+|\/+$/g, '') : '';
         this.filename = options.filename;
         this.metadata = options.metadata;
     }
@@ -46,10 +49,11 @@ export class MinioStorageEngine implements multer.StorageEngine {
             .then(async ([filename, metadata]) => {
                 // multer 的 bug: https://github.com/expressjs/multer/issues/1104
                 const _fileName = Buffer.from(filename, 'latin1').toString('utf-8')
+                const objectName = this.path ? `${this.path}/${_fileName}` : _fileName;
                 try {
                     await this.minioClient.putObject(
                         this.bucketName,
-                        _fileName,
+                        objectName,
                         file.stream,
                         file.size,
                         metadata

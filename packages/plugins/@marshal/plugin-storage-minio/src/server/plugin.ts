@@ -31,6 +31,7 @@ export class PluginStorageMinioServer extends Plugin {
             accessKey: process.env.STORAGE_DEFAULT_ACCESSKEY || '',
             secretKey: process.env.STORAGE_DEFAULT_SECRETKEY || '',
             bucketName: process.env.STORAGE_DEFAULT_BUCKETNAME || 'test',
+            path: process.env.STORAGE_DEFAULT_PATH || '',
           },
           rules: {
             size: 20 * 1024 * 1024,  // 20 MB

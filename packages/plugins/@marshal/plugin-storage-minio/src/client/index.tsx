@@ -71,6 +71,13 @@ export class PluginStorageMinioClient extends Plugin {
               'x-component': 'InputNumber',
               default: 3600,
             },
+            path: {
+              title: `Path`,
+              type: 'string',
+              'x-decorator': 'FormItem',
+              'x-component': 'TextAreaWithGlobalScope',
+              description: `{{t('Relative path the file will be saved to. Left blank as root path. The leading and trailing slashes "/" will be ignored. For example: "user/avatar".')}}`,
+            },
           },
 
         },

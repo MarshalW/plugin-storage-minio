@@ -4,23 +4,27 @@ import { MinioStorageEngine } from './MinioStorageEngine';
 
 export class StorageTypeMinio extends StorageType {
     make(): StorageEngine {
-        const { bucketName } = this.storage.options;
+        const { bucketName, path } = this.storage.options;
+        const normalizedPath = path ? path.replace(/^\/+|\/+$/g, '') : '';
         return new MinioStorageEngine({
             minioClient: this.getClient(),
             bucketName,
+            path: normalizedPath,
         })
     }
 
     async delete(records: AttachmentModel[]): Promise<[number, AttachmentModel[]]> {
 
-        const { bucketName } = this.storage.options;
+        const { bucketName, path } = this.storage.options;
+        const normalizedPath = path ? path.replace(/^\/+|\/+$/g, '') : '';
 
         let successCount = 0;
         const failedRecords: AttachmentModel[] = [];
 
         for (const record of records) {
             try {
-                await this.getClient().removeObject(bucketName, record.filename);
+                const objectName = normalizedPath ? `${normalizedPath}/${record.filename}` : record.filename;
+                await this.getClient().removeObject(bucketName, objectName);
                 successCount++;
             } catch (err) {
                 failedRecords.push(record); // 记录删除失败的条目
@@ -31,8 +35,10 @@ export class StorageTypeMinio extends StorageType {
     }
 
     async getFileURL(file: AttachmentModel, preview?: boolean): Promise<string> {
-        const { expires, bucketName } = this.storage.options;
-        return await this.getClient().presignedGetObject(bucketName, file.filename, expires)
+        const { expires, bucketName, path } = this.storage.options;
+        const normalizedPath = path ? path.replace(/^\/+|\/+$/g, '') : '';
+        const objectName = normalizedPath ? `${normalizedPath}/${file.filename}` : file.filename;
+        return await this.getClient().presignedGetObject(bucketName, objectName, expires)
     }
 
     getClient() {
